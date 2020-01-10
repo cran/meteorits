@@ -7,6 +7,8 @@
 
 [![Travis build
 status](https://travis-ci.org/fchamroukhi/MEteorits.svg?branch=master)](https://travis-ci.org/fchamroukhi/MEteorits)
+[![CRAN
+versions](https://www.r-pkg.org/badges/version/meteorits)](https://CRAN.R-project.org/package=meteorits)
 <!-- badges: end -->
 
 MEteorits is an open source toolbox (available in R and Matlab)
@@ -83,42 +85,38 @@ p <- 1 # Order of the polynomial regression (regressors/experts)
 q <- 1 # Order of the logistic regression (gating network)
 
 nmoe <- emNMoE(X = x, Y = y, K = K, p = p, q = q, verbose = TRUE)
-#> EM NMoE: Iteration: 1 | log-likelihood: -860.102443327928
-#> EM NMoE: Iteration: 2 | log-likelihood: -859.206324532254
-#> EM NMoE: Iteration: 3 | log-likelihood: -857.763995889009
-#> EM NMoE: Iteration: 4 | log-likelihood: -854.516706607357
-#> EM NMoE: Iteration: 5 | log-likelihood: -847.383705869603
-#> EM NMoE: Iteration: 6 | log-likelihood: -833.654576218865
-#> EM NMoE: Iteration: 7 | log-likelihood: -812.266463705637
-#> EM NMoE: Iteration: 8 | log-likelihood: -786.870499851187
-#> EM NMoE: Iteration: 9 | log-likelihood: -764.385546458002
-#> EM NMoE: Iteration: 10 | log-likelihood: -749.005031205089
-#> EM NMoE: Iteration: 11 | log-likelihood: -740.282423567076
-#> EM NMoE: Iteration: 12 | log-likelihood: -736.029942437869
-#> EM NMoE: Iteration: 13 | log-likelihood: -734.146645166132
-#> EM NMoE: Iteration: 14 | log-likelihood: -733.301666756211
-#> EM NMoE: Iteration: 15 | log-likelihood: -732.889182167162
-#> EM NMoE: Iteration: 16 | log-likelihood: -732.668526473641
-#> EM NMoE: Iteration: 17 | log-likelihood: -732.540890303342
-#> EM NMoE: Iteration: 18 | log-likelihood: -732.461978243164
-#> EM NMoE: Iteration: 19 | log-likelihood: -732.410304542057
-#> EM NMoE: Iteration: 20 | log-likelihood: -732.374781387036
-#> EM NMoE: Iteration: 21 | log-likelihood: -732.349376554992
-#> EM NMoE: Iteration: 22 | log-likelihood: -732.330641308339
-#> EM NMoE: Iteration: 23 | log-likelihood: -732.31650288774
-#> EM NMoE: Iteration: 24 | log-likelihood: -732.30565227384
-#> EM NMoE: Iteration: 25 | log-likelihood: -732.297222972319
-#> EM NMoE: Iteration: 26 | log-likelihood: -732.290616844693
-#> EM NMoE: Iteration: 27 | log-likelihood: -732.285406227514
-#> EM NMoE: Iteration: 28 | log-likelihood: -732.281276681825
-#> EM NMoE: Iteration: 29 | log-likelihood: -732.277992022666
-#> EM NMoE: Iteration: 30 | log-likelihood: -732.27537198734
-#> EM NMoE: Iteration: 31 | log-likelihood: -732.273277356418
-#> EM NMoE: Iteration: 32 | log-likelihood: -732.271599658418
-#> EM NMoE: Iteration: 33 | log-likelihood: -732.270253816762
-#> EM NMoE: Iteration: 34 | log-likelihood: -732.269172763402
-#> EM NMoE: Iteration: 35 | log-likelihood: -732.268303414829
-#> EM NMoE: Iteration: 36 | log-likelihood: -732.267603620527
+#> EM NMoE: Iteration: 1 | log-likelihood: -850.659719240158
+#> EM NMoE: Iteration: 2 | log-likelihood: -850.524629010475
+#> EM NMoE: Iteration: 3 | log-likelihood: -850.430788051698
+#> EM NMoE: Iteration: 4 | log-likelihood: -850.283793706938
+#> EM NMoE: Iteration: 5 | log-likelihood: -849.97811162098
+#> EM NMoE: Iteration: 6 | log-likelihood: -849.309846170774
+#> EM NMoE: Iteration: 7 | log-likelihood: -847.853073877546
+#> EM NMoE: Iteration: 8 | log-likelihood: -844.760254765814
+#> EM NMoE: Iteration: 9 | log-likelihood: -838.538908952736
+#> EM NMoE: Iteration: 10 | log-likelihood: -827.124841419721
+#> EM NMoE: Iteration: 11 | log-likelihood: -809.002195790739
+#> EM NMoE: Iteration: 12 | log-likelihood: -786.082845509062
+#> EM NMoE: Iteration: 13 | log-likelihood: -765.697860048611
+#> EM NMoE: Iteration: 14 | log-likelihood: -753.84437315637
+#> EM NMoE: Iteration: 15 | log-likelihood: -748.545284749922
+#> EM NMoE: Iteration: 16 | log-likelihood: -746.181369709665
+#> EM NMoE: Iteration: 17 | log-likelihood: -745.062227019926
+#> EM NMoE: Iteration: 18 | log-likelihood: -744.517209155278
+#> EM NMoE: Iteration: 19 | log-likelihood: -744.248035626126
+#> EM NMoE: Iteration: 20 | log-likelihood: -744.113273238347
+#> EM NMoE: Iteration: 21 | log-likelihood: -744.04458797388
+#> EM NMoE: Iteration: 22 | log-likelihood: -744.008709857418
+#> EM NMoE: Iteration: 23 | log-likelihood: -743.989337491229
+#> EM NMoE: Iteration: 24 | log-likelihood: -743.978422442498
+#> EM NMoE: Iteration: 25 | log-likelihood: -743.971951246252
+#> EM NMoE: Iteration: 26 | log-likelihood: -743.967895060795
+#> EM NMoE: Iteration: 27 | log-likelihood: -743.965208755974
+#> EM NMoE: Iteration: 28 | log-likelihood: -743.963339864259
+#> EM NMoE: Iteration: 29 | log-likelihood: -743.961986174011
+#> EM NMoE: Iteration: 30 | log-likelihood: -743.960975097926
+#> EM NMoE: Iteration: 31 | log-likelihood: -743.960202991077
+#> EM NMoE: Iteration: 32 | log-likelihood: -743.959604173327
 
 nmoe$summary()
 #> ------------------------------------------
@@ -128,23 +126,23 @@ nmoe$summary()
 #> NMoE model with K = 2 experts:
 #> 
 #>  log-likelihood df       AIC      BIC       ICL
-#>       -732.2676  8 -740.2676 -757.126 -802.4245
+#>       -743.9596  8 -751.9596 -768.818 -827.3815
 #> 
 #> Clustering table (Number of observations in each expert):
 #> 
 #>   1   2 
-#> 278 222 
+#> 292 208 
 #> 
 #> Regression coefficients:
 #> 
 #>     Beta(k = 1) Beta(k = 2)
-#> 1   0.000871676 -0.04649074
-#> X^1 2.792230619 -2.62424711
+#> 1    0.01265767  -0.1734812
+#> X^1  2.26644322  -2.4105137
 #> 
 #> Variances:
 #> 
 #>  Sigma2(k = 1) Sigma2(k = 2)
-#>       1.087969     0.8918722
+#>       1.103732     0.8591557
 
 nmoe$plot()
 ```
@@ -163,61 +161,61 @@ p <- 1 # Order of the polynomial regression (regressors/experts)
 q <- 1 # Order of the logistic regression (gating network)
 
 nmoe <- emNMoE(X = x, Y = y, K = K, p = p, q = q, verbose = TRUE)
-#> EM NMoE: Iteration: 1 | log-likelihood: 48.7246731683539
-#> EM NMoE: Iteration: 2 | log-likelihood: 49.2910350811004
-#> EM NMoE: Iteration: 3 | log-likelihood: 50.7755712823077
-#> EM NMoE: Iteration: 4 | log-likelihood: 54.5491064681395
-#> EM NMoE: Iteration: 5 | log-likelihood: 61.7076454238887
-#> EM NMoE: Iteration: 6 | log-likelihood: 69.1225531707505
-#> EM NMoE: Iteration: 7 | log-likelihood: 73.116011648375
-#> EM NMoE: Iteration: 8 | log-likelihood: 75.0275274329599
-#> EM NMoE: Iteration: 9 | log-likelihood: 76.4827312139216
-#> EM NMoE: Iteration: 10 | log-likelihood: 77.9966449701425
-#> EM NMoE: Iteration: 11 | log-likelihood: 79.7576402433594
-#> EM NMoE: Iteration: 12 | log-likelihood: 81.9997591957423
-#> EM NMoE: Iteration: 13 | log-likelihood: 85.118715105544
-#> EM NMoE: Iteration: 14 | log-likelihood: 89.4300117994164
-#> EM NMoE: Iteration: 15 | log-likelihood: 93.6142175874705
-#> EM NMoE: Iteration: 16 | log-likelihood: 95.5006617123426
-#> EM NMoE: Iteration: 17 | log-likelihood: 96.0715862925038
-#> EM NMoE: Iteration: 18 | log-likelihood: 96.2780570769132
-#> EM NMoE: Iteration: 19 | log-likelihood: 96.3841415951946
-#> EM NMoE: Iteration: 20 | log-likelihood: 96.4628426765377
-#> EM NMoE: Iteration: 21 | log-likelihood: 96.5368476445466
-#> EM NMoE: Iteration: 22 | log-likelihood: 96.6143673583463
-#> EM NMoE: Iteration: 23 | log-likelihood: 96.698980885795
-#> EM NMoE: Iteration: 24 | log-likelihood: 96.7924127491337
-#> EM NMoE: Iteration: 25 | log-likelihood: 96.8952244617233
-#> EM NMoE: Iteration: 26 | log-likelihood: 97.0068755878185
-#> EM NMoE: Iteration: 27 | log-likelihood: 97.1256764129231
-#> EM NMoE: Iteration: 28 | log-likelihood: 97.248887696354
-#> EM NMoE: Iteration: 29 | log-likelihood: 97.3730923722728
-#> EM NMoE: Iteration: 30 | log-likelihood: 97.494849405262
-#> EM NMoE: Iteration: 31 | log-likelihood: 97.6115142646361
-#> EM NMoE: Iteration: 32 | log-likelihood: 97.7219802782529
-#> EM NMoE: Iteration: 33 | log-likelihood: 97.8270816291474
-#> EM NMoE: Iteration: 34 | log-likelihood: 97.9294784625799
-#> EM NMoE: Iteration: 35 | log-likelihood: 98.0330073107111
-#> EM NMoE: Iteration: 36 | log-likelihood: 98.1417049432868
-#> EM NMoE: Iteration: 37 | log-likelihood: 98.258830875545
-#> EM NMoE: Iteration: 38 | log-likelihood: 98.3862373707756
-#> EM NMoE: Iteration: 39 | log-likelihood: 98.5243387601815
-#> EM NMoE: Iteration: 40 | log-likelihood: 98.6726820192531
-#> EM NMoE: Iteration: 41 | log-likelihood: 98.8307826617846
-#> EM NMoE: Iteration: 42 | log-likelihood: 98.9988697294166
-#> EM NMoE: Iteration: 43 | log-likelihood: 99.1782955720817
-#> EM NMoE: Iteration: 44 | log-likelihood: 99.3717157992755
-#> EM NMoE: Iteration: 45 | log-likelihood: 99.5833126828856
-#> EM NMoE: Iteration: 46 | log-likelihood: 99.8193467157684
-#> EM NMoE: Iteration: 47 | log-likelihood: 100.089226316619
-#> EM NMoE: Iteration: 48 | log-likelihood: 100.407129431406
-#> EM NMoE: Iteration: 49 | log-likelihood: 100.793445233804
-#> EM NMoE: Iteration: 50 | log-likelihood: 101.27080025905
-#> EM NMoE: Iteration: 51 | log-likelihood: 101.831781157917
-#> EM NMoE: Iteration: 52 | log-likelihood: 102.352717840711
-#> EM NMoE: Iteration: 53 | log-likelihood: 102.640382832163
-#> EM NMoE: Iteration: 54 | log-likelihood: 102.720671449977
-#> EM NMoE: Iteration: 55 | log-likelihood: 102.720726493594
+#> EM NMoE: Iteration: 1 | log-likelihood: 48.3988726040827
+#> EM NMoE: Iteration: 2 | log-likelihood: 48.9326207295142
+#> EM NMoE: Iteration: 3 | log-likelihood: 50.051039377426
+#> EM NMoE: Iteration: 4 | log-likelihood: 52.9250961462781
+#> EM NMoE: Iteration: 5 | log-likelihood: 59.1669854674966
+#> EM NMoE: Iteration: 6 | log-likelihood: 67.5520185593279
+#> EM NMoE: Iteration: 7 | log-likelihood: 73.0997722565129
+#> EM NMoE: Iteration: 8 | log-likelihood: 75.5728843281524
+#> EM NMoE: Iteration: 9 | log-likelihood: 77.1804335125676
+#> EM NMoE: Iteration: 10 | log-likelihood: 78.8228583260898
+#> EM NMoE: Iteration: 11 | log-likelihood: 80.7994256495649
+#> EM NMoE: Iteration: 12 | log-likelihood: 83.4327216902578
+#> EM NMoE: Iteration: 13 | log-likelihood: 87.167207159755
+#> EM NMoE: Iteration: 14 | log-likelihood: 91.7548816275664
+#> EM NMoE: Iteration: 15 | log-likelihood: 94.8386054468416
+#> EM NMoE: Iteration: 16 | log-likelihood: 95.8702965168198
+#> EM NMoE: Iteration: 17 | log-likelihood: 96.201217475001
+#> EM NMoE: Iteration: 18 | log-likelihood: 96.3427273583883
+#> EM NMoE: Iteration: 19 | log-likelihood: 96.4312445403178
+#> EM NMoE: Iteration: 20 | log-likelihood: 96.5068035716238
+#> EM NMoE: Iteration: 21 | log-likelihood: 96.5827848006443
+#> EM NMoE: Iteration: 22 | log-likelihood: 96.664497621724
+#> EM NMoE: Iteration: 23 | log-likelihood: 96.7544065779447
+#> EM NMoE: Iteration: 24 | log-likelihood: 96.8535649805854
+#> EM NMoE: Iteration: 25 | log-likelihood: 96.9618980067147
+#> EM NMoE: Iteration: 26 | log-likelihood: 97.0781807281132
+#> EM NMoE: Iteration: 27 | log-likelihood: 97.2000668915646
+#> EM NMoE: Iteration: 28 | log-likelihood: 97.3243471857001
+#> EM NMoE: Iteration: 29 | log-likelihood: 97.4475005220902
+#> EM NMoE: Iteration: 30 | log-likelihood: 97.566473896656
+#> EM NMoE: Iteration: 31 | log-likelihood: 97.6794841146006
+#> EM NMoE: Iteration: 32 | log-likelihood: 97.7865826549208
+#> EM NMoE: Iteration: 33 | log-likelihood: 97.8897593890552
+#> EM NMoE: Iteration: 34 | log-likelihood: 97.9924846700633
+#> EM NMoE: Iteration: 35 | log-likelihood: 98.0988320818964
+#> EM NMoE: Iteration: 36 | log-likelihood: 98.2124589670307
+#> EM NMoE: Iteration: 37 | log-likelihood: 98.3358032691223
+#> EM NMoE: Iteration: 38 | log-likelihood: 98.4698046243747
+#> EM NMoE: Iteration: 39 | log-likelihood: 98.6142554980094
+#> EM NMoE: Iteration: 40 | log-likelihood: 98.7685998935106
+#> EM NMoE: Iteration: 41 | log-likelihood: 98.9327260646186
+#> EM NMoE: Iteration: 42 | log-likelihood: 99.1075255399307
+#> EM NMoE: Iteration: 43 | log-likelihood: 99.2951330061669
+#> EM NMoE: Iteration: 44 | log-likelihood: 99.4990978545361
+#> EM NMoE: Iteration: 45 | log-likelihood: 99.724781385219
+#> EM NMoE: Iteration: 46 | log-likelihood: 99.9802114334364
+#> EM NMoE: Iteration: 47 | log-likelihood: 100.277506353508
+#> EM NMoE: Iteration: 48 | log-likelihood: 100.634603770888
+#> EM NMoE: Iteration: 49 | log-likelihood: 101.074685777405
+#> EM NMoE: Iteration: 50 | log-likelihood: 101.609342261681
+#> EM NMoE: Iteration: 51 | log-likelihood: 102.167518045425
+#> EM NMoE: Iteration: 52 | log-likelihood: 102.591482251134
+#> EM NMoE: Iteration: 53 | log-likelihood: 102.692086561759
+#> EM NMoE: Iteration: 54 | log-likelihood: 102.721983731666
+#> EM NMoE: Iteration: 55 | log-likelihood: 102.721991417921
 
 nmoe$summary()
 #> ------------------------------------------
@@ -227,7 +225,7 @@ nmoe$summary()
 #> NMoE model with K = 2 experts:
 #> 
 #>  log-likelihood df      AIC      BIC      ICL
-#>        102.7207  8 94.72073 83.07011 83.18325
+#>         102.722  8 94.72199 83.07137 83.17998
 #> 
 #> Clustering table (Number of observations in each expert):
 #> 
@@ -237,13 +235,13 @@ nmoe$summary()
 #> Regression coefficients:
 #> 
 #>      Beta(k = 1)   Beta(k = 2)
-#> 1   -42.36262495 -12.667344766
-#> X^1   0.02149294   0.006474835
+#> 1   -42.36252836 -12.667270814
+#> X^1   0.02149289   0.006474796
 #> 
 #> Variances:
 #> 
 #>  Sigma2(k = 1) Sigma2(k = 2)
-#>     0.01193082     0.0135232
+#>     0.01193084    0.01352335
 
 nmoe$plot()
 ```
@@ -276,31 +274,36 @@ p <- 1 # Order of the polynomial regression (regressors/experts)
 q <- 1 # Order of the logistic regression (gating network)
 
 tmoe <- emTMoE(X = x, Y = y, K = K, p = p, q = q, verbose = TRUE)
-#> EM - tMoE: Iteration: 1 | log-likelihood: -479.5826481378
-#> EM - tMoE: Iteration: 2 | log-likelihood: -475.179852337995
-#> EM - tMoE: Iteration: 3 | log-likelihood: -474.949017663882
-#> EM - tMoE: Iteration: 4 | log-likelihood: -474.794783103753
-#> EM - tMoE: Iteration: 5 | log-likelihood: -474.671919998411
-#> EM - tMoE: Iteration: 6 | log-likelihood: -474.574922477105
-#> EM - tMoE: Iteration: 7 | log-likelihood: -474.499071126185
-#> EM - tMoE: Iteration: 8 | log-likelihood: -474.440236556689
-#> EM - tMoE: Iteration: 9 | log-likelihood: -474.394914835494
-#> EM - tMoE: Iteration: 10 | log-likelihood: -474.360205666224
-#> EM - tMoE: Iteration: 11 | log-likelihood: -474.333755030778
-#> EM - tMoE: Iteration: 12 | log-likelihood: -474.313682015173
-#> EM - tMoE: Iteration: 13 | log-likelihood: -474.298502640915
-#> EM - tMoE: Iteration: 14 | log-likelihood: -474.287058122401
-#> EM - tMoE: Iteration: 15 | log-likelihood: -474.278451241432
-#> EM - tMoE: Iteration: 16 | log-likelihood: -474.271992150236
-#> EM - tMoE: Iteration: 17 | log-likelihood: -474.267153515763
-#> EM - tMoE: Iteration: 18 | log-likelihood: -474.263534182535
-#> EM - tMoE: Iteration: 19 | log-likelihood: -474.26083021626
-#> EM - tMoE: Iteration: 20 | log-likelihood: -474.25881212441
-#> EM - tMoE: Iteration: 21 | log-likelihood: -474.257307119091
-#> EM - tMoE: Iteration: 22 | log-likelihood: -474.256185419956
-#> EM - tMoE: Iteration: 23 | log-likelihood: -474.255349748142
-#> EM - tMoE: Iteration: 24 | log-likelihood: -474.25472731238
-#> EM - tMoE: Iteration: 25 | log-likelihood: -474.254263724131
+#> EM - tMoE: Iteration: 1 | log-likelihood: -552.125213974242
+#> EM - tMoE: Iteration: 2 | log-likelihood: -547.987183857056
+#> EM - tMoE: Iteration: 3 | log-likelihood: -546.40733469181
+#> EM - tMoE: Iteration: 4 | log-likelihood: -544.898386695277
+#> EM - tMoE: Iteration: 5 | log-likelihood: -543.502686575021
+#> EM - tMoE: Iteration: 6 | log-likelihood: -542.283105674398
+#> EM - tMoE: Iteration: 7 | log-likelihood: -541.266467232123
+#> EM - tMoE: Iteration: 8 | log-likelihood: -540.450661063362
+#> EM - tMoE: Iteration: 9 | log-likelihood: -539.815711994686
+#> EM - tMoE: Iteration: 10 | log-likelihood: -539.333458769544
+#> EM - tMoE: Iteration: 11 | log-likelihood: -538.974215771526
+#> EM - tMoE: Iteration: 12 | log-likelihood: -538.710672092328
+#> EM - tMoE: Iteration: 13 | log-likelihood: -538.519646653311
+#> EM - tMoE: Iteration: 14 | log-likelihood: -538.38248504553
+#> EM - tMoE: Iteration: 15 | log-likelihood: -538.284724625379
+#> EM - tMoE: Iteration: 16 | log-likelihood: -538.215449987784
+#> EM - tMoE: Iteration: 17 | log-likelihood: -538.166584335222
+#> EM - tMoE: Iteration: 18 | log-likelihood: -538.132238929576
+#> EM - tMoE: Iteration: 19 | log-likelihood: -538.108167974741
+#> EM - tMoE: Iteration: 20 | log-likelihood: -538.09133618607
+#> EM - tMoE: Iteration: 21 | log-likelihood: -538.07958783267
+#> EM - tMoE: Iteration: 22 | log-likelihood: -538.071399628517
+#> EM - tMoE: Iteration: 23 | log-likelihood: -538.065699459315
+#> EM - tMoE: Iteration: 24 | log-likelihood: -538.061735113966
+#> EM - tMoE: Iteration: 25 | log-likelihood: -538.058980140461
+#> EM - tMoE: Iteration: 26 | log-likelihood: -538.05706681974
+#> EM - tMoE: Iteration: 27 | log-likelihood: -538.055738714103
+#> EM - tMoE: Iteration: 28 | log-likelihood: -538.054817220152
+#> EM - tMoE: Iteration: 29 | log-likelihood: -538.054178073834
+#> EM - tMoE: Iteration: 30 | log-likelihood: -538.053734891082
 
 tmoe$summary()
 #> -------------------------------------
@@ -310,7 +313,7 @@ tmoe$summary()
 #> tMoE model with K = 2 experts:
 #> 
 #>  log-likelihood df       AIC       BIC       ICL
-#>       -474.2543 10 -484.2543 -505.3273 -505.3289
+#>       -538.0537 10 -548.0537 -569.1268 -569.1248
 #> 
 #> Clustering table (Number of observations in each expert):
 #> 
@@ -320,13 +323,13 @@ tmoe$summary()
 #> Regression coefficients:
 #> 
 #>     Beta(k = 1) Beta(k = 2)
-#> 1    0.02917677  0.06582192
-#> X^1  2.55733420 -2.49078462
+#> 1     0.1725939 -0.08414846
+#> X^1   2.7387008 -2.33997997
 #> 
 #> Variances:
 #> 
 #>  Sigma2(k = 1) Sigma2(k = 2)
-#>      0.2302365     0.4286459
+#>      0.2727009     0.4847398
 
 tmoe$plot()
 ```
@@ -346,43 +349,43 @@ p <- 2 # Order of the polynomial regression (regressors/experts)
 q <- 1 # Order of the logistic regression (gating network)
 
 tmoe <- emTMoE(X = x, Y = y, K = K, p = p, q = q, verbose = TRUE)
-#> EM - tMoE: Iteration: 1 | log-likelihood: -585.248413704234
-#> EM - tMoE: Iteration: 2 | log-likelihood: -582.991474574389
-#> EM - tMoE: Iteration: 3 | log-likelihood: -582.137418304325
-#> EM - tMoE: Iteration: 4 | log-likelihood: -579.322117006085
-#> EM - tMoE: Iteration: 5 | log-likelihood: -570.131818717602
-#> EM - tMoE: Iteration: 6 | log-likelihood: -562.668279548609
-#> EM - tMoE: Iteration: 7 | log-likelihood: -559.705985576329
-#> EM - tMoE: Iteration: 8 | log-likelihood: -558.973375090175
-#> EM - tMoE: Iteration: 9 | log-likelihood: -558.297693702258
-#> EM - tMoE: Iteration: 10 | log-likelihood: -557.387786015001
-#> EM - tMoE: Iteration: 11 | log-likelihood: -556.351929607935
-#> EM - tMoE: Iteration: 12 | log-likelihood: -555.42385343145
-#> EM - tMoE: Iteration: 13 | log-likelihood: -554.603106595745
-#> EM - tMoE: Iteration: 14 | log-likelihood: -553.813325400748
-#> EM - tMoE: Iteration: 15 | log-likelihood: -553.053820053857
-#> EM - tMoE: Iteration: 16 | log-likelihood: -552.356644722667
-#> EM - tMoE: Iteration: 17 | log-likelihood: -551.759682837792
-#> EM - tMoE: Iteration: 18 | log-likelihood: -551.289625311874
-#> EM - tMoE: Iteration: 19 | log-likelihood: -550.947692114198
-#> EM - tMoE: Iteration: 20 | log-likelihood: -550.713268389276
-#> EM - tMoE: Iteration: 21 | log-likelihood: -550.558248684201
-#> EM - tMoE: Iteration: 22 | log-likelihood: -550.457560224711
-#> EM - tMoE: Iteration: 23 | log-likelihood: -550.39256028992
-#> EM - tMoE: Iteration: 24 | log-likelihood: -550.350558911763
-#> EM - tMoE: Iteration: 25 | log-likelihood: -550.323278354317
-#> EM - tMoE: Iteration: 26 | log-likelihood: -550.305420448357
-#> EM - tMoE: Iteration: 27 | log-likelihood: -550.293616199772
-#> EM - tMoE: Iteration: 28 | log-likelihood: -550.28572340279
-#> EM - tMoE: Iteration: 29 | log-likelihood: -550.280375414531
-#> EM - tMoE: Iteration: 30 | log-likelihood: -550.276696051805
-#> EM - tMoE: Iteration: 31 | log-likelihood: -550.274120345143
-#> EM - tMoE: Iteration: 32 | log-likelihood: -550.272281745723
-#> EM - tMoE: Iteration: 33 | log-likelihood: -550.270940883559
-#> EM - tMoE: Iteration: 34 | log-likelihood: -550.269940347609
-#> EM - tMoE: Iteration: 35 | log-likelihood: -550.269175831444
-#> EM - tMoE: Iteration: 36 | log-likelihood: -550.268577626098
-#> EM - tMoE: Iteration: 37 | log-likelihood: -550.268098690912
+#> EM - tMoE: Iteration: 1 | log-likelihood: -605.266571357791
+#> EM - tMoE: Iteration: 2 | log-likelihood: -599.044701698548
+#> EM - tMoE: Iteration: 3 | log-likelihood: -595.501279714269
+#> EM - tMoE: Iteration: 4 | log-likelihood: -593.009530361222
+#> EM - tMoE: Iteration: 5 | log-likelihood: -590.714969153092
+#> EM - tMoE: Iteration: 6 | log-likelihood: -587.897449166264
+#> EM - tMoE: Iteration: 7 | log-likelihood: -583.582012360803
+#> EM - tMoE: Iteration: 8 | log-likelihood: -578.122132426342
+#> EM - tMoE: Iteration: 9 | log-likelihood: -573.081475929554
+#> EM - tMoE: Iteration: 10 | log-likelihood: -570.74014908355
+#> EM - tMoE: Iteration: 11 | log-likelihood: -569.7657737772
+#> EM - tMoE: Iteration: 12 | log-likelihood: -568.885074316649
+#> EM - tMoE: Iteration: 13 | log-likelihood: -568.011955227929
+#> EM - tMoE: Iteration: 14 | log-likelihood: -567.159312820848
+#> EM - tMoE: Iteration: 15 | log-likelihood: -566.350991948378
+#> EM - tMoE: Iteration: 16 | log-likelihood: -565.616862268021
+#> EM - tMoE: Iteration: 17 | log-likelihood: -564.990448386782
+#> EM - tMoE: Iteration: 18 | log-likelihood: -564.496384022067
+#> EM - tMoE: Iteration: 19 | log-likelihood: -564.13571445338
+#> EM - tMoE: Iteration: 20 | log-likelihood: -563.887578265863
+#> EM - tMoE: Iteration: 21 | log-likelihood: -563.72301337972
+#> EM - tMoE: Iteration: 22 | log-likelihood: -563.61586828125
+#> EM - tMoE: Iteration: 23 | log-likelihood: -563.546554999698
+#> EM - tMoE: Iteration: 24 | log-likelihood: -563.501679965445
+#> EM - tMoE: Iteration: 25 | log-likelihood: -563.472480239373
+#> EM - tMoE: Iteration: 26 | log-likelihood: -563.453334332534
+#> EM - tMoE: Iteration: 27 | log-likelihood: -563.440660583559
+#> EM - tMoE: Iteration: 28 | log-likelihood: -563.43217720637
+#> EM - tMoE: Iteration: 29 | log-likelihood: -563.426425658754
+#> EM - tMoE: Iteration: 30 | log-likelihood: -563.422468915477
+#> EM - tMoE: Iteration: 31 | log-likelihood: -563.41970146878
+#> EM - tMoE: Iteration: 32 | log-likelihood: -563.417729585165
+#> EM - tMoE: Iteration: 33 | log-likelihood: -563.416295552506
+#> EM - tMoE: Iteration: 34 | log-likelihood: -563.415229512982
+#> EM - tMoE: Iteration: 35 | log-likelihood: -563.414418669214
+#> EM - tMoE: Iteration: 36 | log-likelihood: -563.413787491396
+#> EM - tMoE: Iteration: 37 | log-likelihood: -563.413284930069
 
 tmoe$summary()
 #> -------------------------------------
@@ -392,24 +395,24 @@ tmoe$summary()
 #> tMoE model with K = 4 experts:
 #> 
 #>  log-likelihood df       AIC       BIC       ICL
-#>       -550.2681 26 -576.2681 -613.8426 -613.8386
+#>       -563.4133 26 -589.4133 -626.9878 -626.9753
 #> 
 #> Clustering table (Number of observations in each expert):
 #> 
 #>  1  2  3  4 
-#> 28 37 31 37 
+#> 28 36 32 37 
 #> 
 #> Regression coefficients:
 #> 
 #>      Beta(k = 1) Beta(k = 2)  Beta(k = 3) Beta(k = 4)
-#> 1   -1.037509504  993.350950 -1916.806298 322.6145388
-#> X^1 -0.111799074 -104.000614   119.277179 -13.4244982
-#> X^2 -0.007682953    2.435545    -1.809859   0.1378466
+#> 1   -1.037712416  1774.38349 -1434.398457 292.6068438
+#> X^1 -0.111685768  -189.85966    84.930824 -12.1664690
+#> X^2 -0.007693142     4.74843    -1.205771   0.1248612
 #> 
 #> Variances:
 #> 
 #>  Sigma2(k = 1) Sigma2(k = 2) Sigma2(k = 3) Sigma2(k = 4)
-#>       1.584917      451.8821      464.0173      400.2511
+#>       1.585304      30.88009      588.3835      572.0153
 
 tmoe$plot()
 ```
@@ -443,204 +446,116 @@ p <- 1 # Order of the polynomial regression (regressors/experts)
 q <- 1 # Order of the logistic regression (gating network)
 
 snmoe <- emSNMoE(X = x, Y = y, K = K, p = p, q = q, verbose = TRUE)
-#> EM - SNMoE: Iteration: 1 | log-likelihood: -621.728856442526
-#> EM - SNMoE: Iteration: 2 | log-likelihood: -558.213360536928
-#> EM - SNMoE: Iteration: 3 | log-likelihood: -555.736904966393
-#> EM - SNMoE: Iteration: 4 | log-likelihood: -555.278871079312
-#> EM - SNMoE: Iteration: 5 | log-likelihood: -555.126274224087
-#> EM - SNMoE: Iteration: 6 | log-likelihood: -555.019345792359
-#> EM - SNMoE: Iteration: 7 | log-likelihood: -554.918071913792
-#> EM - SNMoE: Iteration: 8 | log-likelihood: -554.820215328805
-#> EM - SNMoE: Iteration: 9 | log-likelihood: -554.728009137953
-#> EM - SNMoE: Iteration: 10 | log-likelihood: -554.64278744341
-#> EM - SNMoE: Iteration: 11 | log-likelihood: -554.564843596235
-#> EM - SNMoE: Iteration: 12 | log-likelihood: -554.49392474161
-#> EM - SNMoE: Iteration: 13 | log-likelihood: -554.429468015711
-#> EM - SNMoE: Iteration: 14 | log-likelihood: -554.370893350264
-#> EM - SNMoE: Iteration: 15 | log-likelihood: -554.317620653218
-#> EM - SNMoE: Iteration: 16 | log-likelihood: -554.269061225442
-#> EM - SNMoE: Iteration: 17 | log-likelihood: -554.22471888669
-#> EM - SNMoE: Iteration: 18 | log-likelihood: -554.184141392687
-#> EM - SNMoE: Iteration: 19 | log-likelihood: -554.146882410224
-#> EM - SNMoE: Iteration: 20 | log-likelihood: -554.112539339761
-#> EM - SNMoE: Iteration: 21 | log-likelihood: -554.080792161846
-#> EM - SNMoE: Iteration: 22 | log-likelihood: -554.051388610781
-#> EM - SNMoE: Iteration: 23 | log-likelihood: -554.023990313567
-#> EM - SNMoE: Iteration: 24 | log-likelihood: -553.998337785631
-#> EM - SNMoE: Iteration: 25 | log-likelihood: -553.974205952563
-#> EM - SNMoE: Iteration: 26 | log-likelihood: -553.951399012262
-#> EM - SNMoE: Iteration: 27 | log-likelihood: -553.929723593108
-#> EM - SNMoE: Iteration: 28 | log-likelihood: -553.908983445577
-#> EM - SNMoE: Iteration: 29 | log-likelihood: -553.889023244505
-#> EM - SNMoE: Iteration: 30 | log-likelihood: -553.869641175008
-#> EM - SNMoE: Iteration: 31 | log-likelihood: -553.850650899131
-#> EM - SNMoE: Iteration: 32 | log-likelihood: -553.831912840515
-#> EM - SNMoE: Iteration: 33 | log-likelihood: -553.813279068345
-#> EM - SNMoE: Iteration: 34 | log-likelihood: -553.794590980494
-#> EM - SNMoE: Iteration: 35 | log-likelihood: -553.775675738716
-#> EM - SNMoE: Iteration: 36 | log-likelihood: -553.75636256911
-#> EM - SNMoE: Iteration: 37 | log-likelihood: -553.736449606636
-#> EM - SNMoE: Iteration: 38 | log-likelihood: -553.715747556335
-#> EM - SNMoE: Iteration: 39 | log-likelihood: -553.69407548634
-#> EM - SNMoE: Iteration: 40 | log-likelihood: -553.671148549865
-#> EM - SNMoE: Iteration: 41 | log-likelihood: -553.64672942311
-#> EM - SNMoE: Iteration: 42 | log-likelihood: -553.620563854547
-#> EM - SNMoE: Iteration: 43 | log-likelihood: -553.592312360374
-#> EM - SNMoE: Iteration: 44 | log-likelihood: -553.56164106997
-#> EM - SNMoE: Iteration: 45 | log-likelihood: -553.528064604014
-#> EM - SNMoE: Iteration: 46 | log-likelihood: -553.491165911478
-#> EM - SNMoE: Iteration: 47 | log-likelihood: -553.450407854544
-#> EM - SNMoE: Iteration: 48 | log-likelihood: -553.405113669696
-#> EM - SNMoE: Iteration: 49 | log-likelihood: -553.354617213691
-#> EM - SNMoE: Iteration: 50 | log-likelihood: -553.298129688763
-#> EM - SNMoE: Iteration: 51 | log-likelihood: -553.234676016243
-#> EM - SNMoE: Iteration: 52 | log-likelihood: -553.163157578903
-#> EM - SNMoE: Iteration: 53 | log-likelihood: -553.082323192632
-#> EM - SNMoE: Iteration: 54 | log-likelihood: -552.990755945682
-#> EM - SNMoE: Iteration: 55 | log-likelihood: -552.886812921294
-#> EM - SNMoE: Iteration: 56 | log-likelihood: -552.768654409658
-#> EM - SNMoE: Iteration: 57 | log-likelihood: -552.634178054705
-#> EM - SNMoE: Iteration: 58 | log-likelihood: -552.481020578896
-#> EM - SNMoE: Iteration: 59 | log-likelihood: -552.306553328824
-#> EM - SNMoE: Iteration: 60 | log-likelihood: -552.107914181545
-#> EM - SNMoE: Iteration: 61 | log-likelihood: -551.882020724453
-#> EM - SNMoE: Iteration: 62 | log-likelihood: -551.625635854612
-#> EM - SNMoE: Iteration: 63 | log-likelihood: -551.335410553824
-#> EM - SNMoE: Iteration: 64 | log-likelihood: -551.007972236228
-#> EM - SNMoE: Iteration: 65 | log-likelihood: -550.640085862103
-#> EM - SNMoE: Iteration: 66 | log-likelihood: -550.228767376016
-#> EM - SNMoE: Iteration: 67 | log-likelihood: -549.771626757119
-#> EM - SNMoE: Iteration: 68 | log-likelihood: -549.266786503829
-#> EM - SNMoE: Iteration: 69 | log-likelihood: -548.713154409294
-#> EM - SNMoE: Iteration: 70 | log-likelihood: -548.110556641433
-#> EM - SNMoE: Iteration: 71 | log-likelihood: -547.459686321877
-#> EM - SNMoE: Iteration: 72 | log-likelihood: -546.762742122023
-#> EM - SNMoE: Iteration: 73 | log-likelihood: -546.022758043637
-#> EM - SNMoE: Iteration: 74 | log-likelihood: -545.243489635641
-#> EM - SNMoE: Iteration: 75 | log-likelihood: -544.430228269536
-#> EM - SNMoE: Iteration: 76 | log-likelihood: -543.588719228421
-#> EM - SNMoE: Iteration: 77 | log-likelihood: -542.725725135121
-#> EM - SNMoE: Iteration: 78 | log-likelihood: -541.848400019931
-#> EM - SNMoE: Iteration: 79 | log-likelihood: -540.964259761912
-#> EM - SNMoE: Iteration: 80 | log-likelihood: -540.080829260855
-#> EM - SNMoE: Iteration: 81 | log-likelihood: -539.205607540551
-#> EM - SNMoE: Iteration: 82 | log-likelihood: -538.345636309891
-#> EM - SNMoE: Iteration: 83 | log-likelihood: -537.507334678653
-#> EM - SNMoE: Iteration: 84 | log-likelihood: -536.696112956019
-#> EM - SNMoE: Iteration: 85 | log-likelihood: -535.916668950777
-#> EM - SNMoE: Iteration: 86 | log-likelihood: -535.172638533614
-#> EM - SNMoE: Iteration: 87 | log-likelihood: -534.466635384802
-#> EM - SNMoE: Iteration: 88 | log-likelihood: -533.800364829745
-#> EM - SNMoE: Iteration: 89 | log-likelihood: -533.174594721497
-#> EM - SNMoE: Iteration: 90 | log-likelihood: -532.589300233649
-#> EM - SNMoE: Iteration: 91 | log-likelihood: -532.043959939387
-#> EM - SNMoE: Iteration: 92 | log-likelihood: -531.537259725034
-#> EM - SNMoE: Iteration: 93 | log-likelihood: -531.067684360293
-#> EM - SNMoE: Iteration: 94 | log-likelihood: -530.63337739162
-#> EM - SNMoE: Iteration: 95 | log-likelihood: -530.232312547578
-#> EM - SNMoE: Iteration: 96 | log-likelihood: -529.862350390479
-#> EM - SNMoE: Iteration: 97 | log-likelihood: -529.521330008296
-#> EM - SNMoE: Iteration: 98 | log-likelihood: -529.207110970311
-#> EM - SNMoE: Iteration: 99 | log-likelihood: -528.917614943768
-#> EM - SNMoE: Iteration: 100 | log-likelihood: -528.650865853561
-#> EM - SNMoE: Iteration: 101 | log-likelihood: -528.404988701608
-#> EM - SNMoE: Iteration: 102 | log-likelihood: -528.178240670872
-#> EM - SNMoE: Iteration: 103 | log-likelihood: -527.969045561096
-#> EM - SNMoE: Iteration: 104 | log-likelihood: -527.775801409155
-#> EM - SNMoE: Iteration: 105 | log-likelihood: -527.597228475611
-#> EM - SNMoE: Iteration: 106 | log-likelihood: -527.432070516003
-#> EM - SNMoE: Iteration: 107 | log-likelihood: -527.279184452501
-#> EM - SNMoE: Iteration: 108 | log-likelihood: -527.137532052357
-#> EM - SNMoE: Iteration: 109 | log-likelihood: -527.006171563407
-#> EM - SNMoE: Iteration: 110 | log-likelihood: -526.884248743514
-#> EM - SNMoE: Iteration: 111 | log-likelihood: -526.770989565113
-#> EM - SNMoE: Iteration: 112 | log-likelihood: -526.665712511246
-#> EM - SNMoE: Iteration: 113 | log-likelihood: -526.567720301142
-#> EM - SNMoE: Iteration: 114 | log-likelihood: -526.476486173305
-#> EM - SNMoE: Iteration: 115 | log-likelihood: -526.391478760632
-#> EM - SNMoE: Iteration: 116 | log-likelihood: -526.312216863129
-#> EM - SNMoE: Iteration: 117 | log-likelihood: -526.238263974578
-#> EM - SNMoE: Iteration: 118 | log-likelihood: -526.169247052748
-#> EM - SNMoE: Iteration: 119 | log-likelihood: -526.104761341868
-#> EM - SNMoE: Iteration: 120 | log-likelihood: -526.044486762085
-#> EM - SNMoE: Iteration: 121 | log-likelihood: -525.988123919022
-#> EM - SNMoE: Iteration: 122 | log-likelihood: -525.935394650157
-#> EM - SNMoE: Iteration: 123 | log-likelihood: -525.886040847845
-#> EM - SNMoE: Iteration: 124 | log-likelihood: -525.839847898829
-#> EM - SNMoE: Iteration: 125 | log-likelihood: -525.796572926175
-#> EM - SNMoE: Iteration: 126 | log-likelihood: -525.756027839905
-#> EM - SNMoE: Iteration: 127 | log-likelihood: -525.718027393607
-#> EM - SNMoE: Iteration: 128 | log-likelihood: -525.682399502553
-#> EM - SNMoE: Iteration: 129 | log-likelihood: -525.648991282808
-#> EM - SNMoE: Iteration: 130 | log-likelihood: -525.617654608724
-#> EM - SNMoE: Iteration: 131 | log-likelihood: -525.588255676934
-#> EM - SNMoE: Iteration: 132 | log-likelihood: -525.560671175401
-#> EM - SNMoE: Iteration: 133 | log-likelihood: -525.534778815521
-#> EM - SNMoE: Iteration: 134 | log-likelihood: -525.510473229679
-#> EM - SNMoE: Iteration: 135 | log-likelihood: -525.48765446247
-#> EM - SNMoE: Iteration: 136 | log-likelihood: -525.466227357151
-#> EM - SNMoE: Iteration: 137 | log-likelihood: -525.446102831915
-#> EM - SNMoE: Iteration: 138 | log-likelihood: -525.427202723562
-#> EM - SNMoE: Iteration: 139 | log-likelihood: -525.409449461722
-#> EM - SNMoE: Iteration: 140 | log-likelihood: -525.392751468854
-#> EM - SNMoE: Iteration: 141 | log-likelihood: -525.377063768844
-#> EM - SNMoE: Iteration: 142 | log-likelihood: -525.362324531153
-#> EM - SNMoE: Iteration: 143 | log-likelihood: -525.348472892085
-#> EM - SNMoE: Iteration: 144 | log-likelihood: -525.335453454786
-#> EM - SNMoE: Iteration: 145 | log-likelihood: -525.323215093896
-#> EM - SNMoE: Iteration: 146 | log-likelihood: -525.311709994699
-#> EM - SNMoE: Iteration: 147 | log-likelihood: -525.300893375613
-#> EM - SNMoE: Iteration: 148 | log-likelihood: -525.290723283207
-#> EM - SNMoE: Iteration: 149 | log-likelihood: -525.281160402854
-#> EM - SNMoE: Iteration: 150 | log-likelihood: -525.272167882801
-#> EM - SNMoE: Iteration: 151 | log-likelihood: -525.263711170525
-#> EM - SNMoE: Iteration: 152 | log-likelihood: -525.255757860658
-#> EM - SNMoE: Iteration: 153 | log-likelihood: -525.248277553928
-#> EM - SNMoE: Iteration: 154 | log-likelihood: -525.241241726476
-#> EM - SNMoE: Iteration: 155 | log-likelihood: -525.234623608809
-#> EM - SNMoE: Iteration: 156 | log-likelihood: -525.228397565455
-#> EM - SNMoE: Iteration: 157 | log-likelihood: -525.222540080956
-#> EM - SNMoE: Iteration: 158 | log-likelihood: -525.217030405599
-#> EM - SNMoE: Iteration: 159 | log-likelihood: -525.211846986648
-#> EM - SNMoE: Iteration: 160 | log-likelihood: -525.20697143723
-#> EM - SNMoE: Iteration: 161 | log-likelihood: -525.202383864528
-#> EM - SNMoE: Iteration: 162 | log-likelihood: -525.198064572311
-#> EM - SNMoE: Iteration: 163 | log-likelihood: -525.194000877408
-#> EM - SNMoE: Iteration: 164 | log-likelihood: -525.190177078631
-#> EM - SNMoE: Iteration: 165 | log-likelihood: -525.186578621621
-#> EM - SNMoE: Iteration: 166 | log-likelihood: -525.183191975844
-#> EM - SNMoE: Iteration: 167 | log-likelihood: -525.180004533262
-#> EM - SNMoE: Iteration: 168 | log-likelihood: -525.177004485555
-#> EM - SNMoE: Iteration: 169 | log-likelihood: -525.174180717199
-#> EM - SNMoE: Iteration: 170 | log-likelihood: -525.171522730087
-#> EM - SNMoE: Iteration: 171 | log-likelihood: -525.169020583885
-#> EM - SNMoE: Iteration: 172 | log-likelihood: -525.166664828542
-#> EM - SNMoE: Iteration: 173 | log-likelihood: -525.164446474489
-#> EM - SNMoE: Iteration: 174 | log-likelihood: -525.162357021968
-#> EM - SNMoE: Iteration: 175 | log-likelihood: -525.160390197532
-#> EM - SNMoE: Iteration: 176 | log-likelihood: -525.158540310137
-#> EM - SNMoE: Iteration: 177 | log-likelihood: -525.156798646047
-#> EM - SNMoE: Iteration: 178 | log-likelihood: -525.15515754785
-#> EM - SNMoE: Iteration: 179 | log-likelihood: -525.153611317717
-#> EM - SNMoE: Iteration: 180 | log-likelihood: -525.152155125816
-#> EM - SNMoE: Iteration: 181 | log-likelihood: -525.15078358669
-#> EM - SNMoE: Iteration: 182 | log-likelihood: -525.149492223675
-#> EM - SNMoE: Iteration: 183 | log-likelihood: -525.148275387018
-#> EM - SNMoE: Iteration: 184 | log-likelihood: -525.147127189924
-#> EM - SNMoE: Iteration: 185 | log-likelihood: -525.146046267732
-#> EM - SNMoE: Iteration: 186 | log-likelihood: -525.145028246939
-#> EM - SNMoE: Iteration: 187 | log-likelihood: -525.144069189364
-#> EM - SNMoE: Iteration: 188 | log-likelihood: -525.143165502493
-#> EM - SNMoE: Iteration: 189 | log-likelihood: -525.142313896612
-#> EM - SNMoE: Iteration: 190 | log-likelihood: -525.141511336999
-#> EM - SNMoE: Iteration: 191 | log-likelihood: -525.140754959957
-#> EM - SNMoE: Iteration: 192 | log-likelihood: -525.140042050086
-#> EM - SNMoE: Iteration: 193 | log-likelihood: -525.139370042782
-#> EM - SNMoE: Iteration: 194 | log-likelihood: -525.138736527692
-#> EM - SNMoE: Iteration: 195 | log-likelihood: -525.138139246697
-#> EM - SNMoE: Iteration: 196 | log-likelihood: -525.137576085423
-#> EM - SNMoE: Iteration: 197 | log-likelihood: -525.137045060771
-#> EM - SNMoE: Iteration: 198 | log-likelihood: -525.1365443081
+#> EM - SNMoE: Iteration: 1 | log-likelihood: -624.23502477139
+#> EM - SNMoE: Iteration: 2 | log-likelihood: -506.408654239152
+#> EM - SNMoE: Iteration: 3 | log-likelihood: -501.732792195309
+#> EM - SNMoE: Iteration: 4 | log-likelihood: -500.859509544961
+#> EM - SNMoE: Iteration: 5 | log-likelihood: -500.597208229948
+#> EM - SNMoE: Iteration: 6 | log-likelihood: -500.433113585124
+#> EM - SNMoE: Iteration: 7 | log-likelihood: -500.281152659166
+#> EM - SNMoE: Iteration: 8 | log-likelihood: -500.133110076618
+#> EM - SNMoE: Iteration: 9 | log-likelihood: -499.99191573382
+#> EM - SNMoE: Iteration: 10 | log-likelihood: -499.859975065605
+#> EM - SNMoE: Iteration: 11 | log-likelihood: -499.738162701963
+#> EM - SNMoE: Iteration: 12 | log-likelihood: -499.626441124172
+#> EM - SNMoE: Iteration: 13 | log-likelihood: -499.524203019735
+#> EM - SNMoE: Iteration: 14 | log-likelihood: -499.430767562131
+#> EM - SNMoE: Iteration: 15 | log-likelihood: -499.345391721334
+#> EM - SNMoE: Iteration: 16 | log-likelihood: -499.267327179952
+#> EM - SNMoE: Iteration: 17 | log-likelihood: -499.195801598347
+#> EM - SNMoE: Iteration: 18 | log-likelihood: -499.130253804223
+#> EM - SNMoE: Iteration: 19 | log-likelihood: -499.070132602352
+#> EM - SNMoE: Iteration: 20 | log-likelihood: -499.014947707728
+#> EM - SNMoE: Iteration: 21 | log-likelihood: -498.964221084507
+#> EM - SNMoE: Iteration: 22 | log-likelihood: -498.917518912217
+#> EM - SNMoE: Iteration: 23 | log-likelihood: -498.874538031141
+#> EM - SNMoE: Iteration: 24 | log-likelihood: -498.834888076035
+#> EM - SNMoE: Iteration: 25 | log-likelihood: -498.7983021104
+#> EM - SNMoE: Iteration: 26 | log-likelihood: -498.764480641263
+#> EM - SNMoE: Iteration: 27 | log-likelihood: -498.733202141712
+#> EM - SNMoE: Iteration: 28 | log-likelihood: -498.704238852666
+#> EM - SNMoE: Iteration: 29 | log-likelihood: -498.677392482473
+#> EM - SNMoE: Iteration: 30 | log-likelihood: -498.652491791682
+#> EM - SNMoE: Iteration: 31 | log-likelihood: -498.629390755752
+#> EM - SNMoE: Iteration: 32 | log-likelihood: -498.607918269276
+#> EM - SNMoE: Iteration: 33 | log-likelihood: -498.587910911632
+#> EM - SNMoE: Iteration: 34 | log-likelihood: -498.569277705623
+#> EM - SNMoE: Iteration: 35 | log-likelihood: -498.55190826306
+#> EM - SNMoE: Iteration: 36 | log-likelihood: -498.535687200215
+#> EM - SNMoE: Iteration: 37 | log-likelihood: -498.520537677872
+#> EM - SNMoE: Iteration: 38 | log-likelihood: -498.506416782001
+#> EM - SNMoE: Iteration: 39 | log-likelihood: -498.49320047472
+#> EM - SNMoE: Iteration: 40 | log-likelihood: -498.480827889945
+#> EM - SNMoE: Iteration: 41 | log-likelihood: -498.469228245683
+#> EM - SNMoE: Iteration: 42 | log-likelihood: -498.458344857453
+#> EM - SNMoE: Iteration: 43 | log-likelihood: -498.448123845995
+#> EM - SNMoE: Iteration: 44 | log-likelihood: -498.438545657271
+#> EM - SNMoE: Iteration: 45 | log-likelihood: -498.429540998034
+#> EM - SNMoE: Iteration: 46 | log-likelihood: -498.421074031024
+#> EM - SNMoE: Iteration: 47 | log-likelihood: -498.41311296707
+#> EM - SNMoE: Iteration: 48 | log-likelihood: -498.405605264825
+#> EM - SNMoE: Iteration: 49 | log-likelihood: -498.398521521705
+#> EM - SNMoE: Iteration: 50 | log-likelihood: -498.391844793288
+#> EM - SNMoE: Iteration: 51 | log-likelihood: -498.38552887206
+#> EM - SNMoE: Iteration: 52 | log-likelihood: -498.379572728608
+#> EM - SNMoE: Iteration: 53 | log-likelihood: -498.37396103451
+#> EM - SNMoE: Iteration: 54 | log-likelihood: -498.36866047334
+#> EM - SNMoE: Iteration: 55 | log-likelihood: -498.363644517078
+#> EM - SNMoE: Iteration: 56 | log-likelihood: -498.358892274563
+#> EM - SNMoE: Iteration: 57 | log-likelihood: -498.354380407258
+#> EM - SNMoE: Iteration: 58 | log-likelihood: -498.350094791915
+#> EM - SNMoE: Iteration: 59 | log-likelihood: -498.34602480772
+#> EM - SNMoE: Iteration: 60 | log-likelihood: -498.3421684725
+#> EM - SNMoE: Iteration: 61 | log-likelihood: -498.338506556813
+#> EM - SNMoE: Iteration: 62 | log-likelihood: -498.33503223395
+#> EM - SNMoE: Iteration: 63 | log-likelihood: -498.331713804265
+#> EM - SNMoE: Iteration: 64 | log-likelihood: -498.328571094787
+#> EM - SNMoE: Iteration: 65 | log-likelihood: -498.325590361659
+#> EM - SNMoE: Iteration: 66 | log-likelihood: -498.322755553246
+#> EM - SNMoE: Iteration: 67 | log-likelihood: -498.320046428647
+#> EM - SNMoE: Iteration: 68 | log-likelihood: -498.317443740077
+#> EM - SNMoE: Iteration: 69 | log-likelihood: -498.314960477939
+#> EM - SNMoE: Iteration: 70 | log-likelihood: -498.312594638119
+#> EM - SNMoE: Iteration: 71 | log-likelihood: -498.310343053809
+#> EM - SNMoE: Iteration: 72 | log-likelihood: -498.308196455546
+#> EM - SNMoE: Iteration: 73 | log-likelihood: -498.306147088082
+#> EM - SNMoE: Iteration: 74 | log-likelihood: -498.304192065459
+#> EM - SNMoE: Iteration: 75 | log-likelihood: -498.302317083505
+#> EM - SNMoE: Iteration: 76 | log-likelihood: -498.300526286387
+#> EM - SNMoE: Iteration: 77 | log-likelihood: -498.298822583771
+#> EM - SNMoE: Iteration: 78 | log-likelihood: -498.297194394597
+#> EM - SNMoE: Iteration: 79 | log-likelihood: -498.295624150138
+#> EM - SNMoE: Iteration: 80 | log-likelihood: -498.294116793465
+#> EM - SNMoE: Iteration: 81 | log-likelihood: -498.292667126523
+#> EM - SNMoE: Iteration: 82 | log-likelihood: -498.291273946415
+#> EM - SNMoE: Iteration: 83 | log-likelihood: -498.289934769731
+#> EM - SNMoE: Iteration: 84 | log-likelihood: -498.28864214422
+#> EM - SNMoE: Iteration: 85 | log-likelihood: -498.287406098769
+#> EM - SNMoE: Iteration: 86 | log-likelihood: -498.286223595463
+#> EM - SNMoE: Iteration: 87 | log-likelihood: -498.28508616981
+#> EM - SNMoE: Iteration: 88 | log-likelihood: -498.283997340883
+#> EM - SNMoE: Iteration: 89 | log-likelihood: -498.282950283835
+#> EM - SNMoE: Iteration: 90 | log-likelihood: -498.281940546453
+#> EM - SNMoE: Iteration: 91 | log-likelihood: -498.280971375546
+#> EM - SNMoE: Iteration: 92 | log-likelihood: -498.28003834533
+#> EM - SNMoE: Iteration: 93 | log-likelihood: -498.279136372523
+#> EM - SNMoE: Iteration: 94 | log-likelihood: -498.278266652903
+#> EM - SNMoE: Iteration: 95 | log-likelihood: -498.277436244929
+#> EM - SNMoE: Iteration: 96 | log-likelihood: -498.27663442817
+#> EM - SNMoE: Iteration: 97 | log-likelihood: -498.275865623848
+#> EM - SNMoE: Iteration: 98 | log-likelihood: -498.275123197331
+#> EM - SNMoE: Iteration: 99 | log-likelihood: -498.274404273745
+#> EM - SNMoE: Iteration: 100 | log-likelihood: -498.273705295173
+#> EM - SNMoE: Iteration: 101 | log-likelihood: -498.273034134751
+#> EM - SNMoE: Iteration: 102 | log-likelihood: -498.272385781012
+#> EM - SNMoE: Iteration: 103 | log-likelihood: -498.271755604265
+#> EM - SNMoE: Iteration: 104 | log-likelihood: -498.271148680279
+#> EM - SNMoE: Iteration: 105 | log-likelihood: -498.270561891543
+#> EM - SNMoE: Iteration: 106 | log-likelihood: -498.269995057457
+#> EM - SNMoE: Iteration: 107 | log-likelihood: -498.269443948584
+#> EM - SNMoE: Iteration: 108 | log-likelihood: -498.268911556956
+#> EM - SNMoE: Iteration: 109 | log-likelihood: -498.268399011873
+#> EM - SNMoE: Iteration: 110 | log-likelihood: -498.267901191242
 
 snmoe$summary()
 #> -----------------------------------------------
@@ -650,7 +565,7 @@ snmoe$summary()
 #> SNMoE model with K = 2 experts:
 #> 
 #>  log-likelihood df       AIC       BIC       ICL
-#>       -525.1365 10 -535.1365 -556.2096 -556.2118
+#>       -498.2679 10 -508.2679 -529.3409 -529.3804
 #> 
 #> Clustering table (Number of observations in each expert):
 #> 
@@ -660,13 +575,13 @@ snmoe$summary()
 #> Regression coefficients:
 #> 
 #>     Beta(k = 1) Beta(k = 2)
-#> 1    0.04334094   0.9909879
-#> X^1  2.64258033  -2.6205941
+#> 1     0.9709634    1.021977
+#> X^1   2.6703213   -2.736127
 #> 
 #> Variances:
 #> 
 #>  Sigma2(k = 1) Sigma2(k = 2)
-#>       1.287492      0.577774
+#>      0.4324076     0.4345685
 
 snmoe$plot()
 ```
@@ -685,163 +600,193 @@ p <- 1 # Order of the polynomial regression (regressors/experts)
 q <- 1 # Order of the logistic regression (gating network)
 
 snmoe <- emSNMoE(X = x, Y = y, K = K, p = p, q = q, verbose = TRUE)
-#> EM - SNMoE: Iteration: 1 | log-likelihood: 65.7530721603781
-#> EM - SNMoE: Iteration: 2 | log-likelihood: 86.3239339322003
-#> EM - SNMoE: Iteration: 3 | log-likelihood: 88.4248331917867
-#> EM - SNMoE: Iteration: 4 | log-likelihood: 88.8179750633729
-#> EM - SNMoE: Iteration: 5 | log-likelihood: 89.0294397977051
-#> EM - SNMoE: Iteration: 6 | log-likelihood: 89.2566863074058
-#> EM - SNMoE: Iteration: 7 | log-likelihood: 89.4478975182817
-#> EM - SNMoE: Iteration: 8 | log-likelihood: 89.5633187024015
-#> EM - SNMoE: Iteration: 9 | log-likelihood: 89.6290238055042
-#> EM - SNMoE: Iteration: 10 | log-likelihood: 89.6684060944619
-#> EM - SNMoE: Iteration: 11 | log-likelihood: 89.6956906428894
-#> EM - SNMoE: Iteration: 12 | log-likelihood: 89.7179136332305
-#> EM - SNMoE: Iteration: 13 | log-likelihood: 89.7373587510515
-#> EM - SNMoE: Iteration: 14 | log-likelihood: 89.7547267319452
-#> EM - SNMoE: Iteration: 15 | log-likelihood: 89.7705850471586
-#> EM - SNMoE: Iteration: 16 | log-likelihood: 89.7852376109111
-#> EM - SNMoE: Iteration: 17 | log-likelihood: 89.7987965783633
-#> EM - SNMoE: Iteration: 18 | log-likelihood: 89.8112942709355
-#> EM - SNMoE: Iteration: 19 | log-likelihood: 89.8227508716605
-#> EM - SNMoE: Iteration: 20 | log-likelihood: 89.8331824538913
-#> EM - SNMoE: Iteration: 21 | log-likelihood: 89.8427214993507
-#> EM - SNMoE: Iteration: 22 | log-likelihood: 89.8514663304413
-#> EM - SNMoE: Iteration: 23 | log-likelihood: 89.8592579973532
-#> EM - SNMoE: Iteration: 24 | log-likelihood: 89.8661561455577
-#> EM - SNMoE: Iteration: 25 | log-likelihood: 89.8722191648257
-#> EM - SNMoE: Iteration: 26 | log-likelihood: 89.8778323703309
-#> EM - SNMoE: Iteration: 27 | log-likelihood: 89.8817300305589
-#> EM - SNMoE: Iteration: 28 | log-likelihood: 89.8855307845703
-#> EM - SNMoE: Iteration: 29 | log-likelihood: 89.8888792977004
-#> EM - SNMoE: Iteration: 30 | log-likelihood: 89.8920951647168
-#> EM - SNMoE: Iteration: 31 | log-likelihood: 89.8948441053182
-#> EM - SNMoE: Iteration: 32 | log-likelihood: 89.8978706974658
-#> EM - SNMoE: Iteration: 33 | log-likelihood: 89.9002200429712
-#> EM - SNMoE: Iteration: 34 | log-likelihood: 89.902328207686
-#> EM - SNMoE: Iteration: 35 | log-likelihood: 89.9045843924366
-#> EM - SNMoE: Iteration: 36 | log-likelihood: 89.9065356754061
-#> EM - SNMoE: Iteration: 37 | log-likelihood: 89.9084626083348
-#> EM - SNMoE: Iteration: 38 | log-likelihood: 89.9102273633366
-#> EM - SNMoE: Iteration: 39 | log-likelihood: 89.9118881848843
-#> EM - SNMoE: Iteration: 40 | log-likelihood: 89.9135632108637
-#> EM - SNMoE: Iteration: 41 | log-likelihood: 89.9151408164437
-#> EM - SNMoE: Iteration: 42 | log-likelihood: 89.9166213837794
-#> EM - SNMoE: Iteration: 43 | log-likelihood: 89.9180702150441
-#> EM - SNMoE: Iteration: 44 | log-likelihood: 89.919458356853
-#> EM - SNMoE: Iteration: 45 | log-likelihood: 89.9207875624714
-#> EM - SNMoE: Iteration: 46 | log-likelihood: 89.922065236882
-#> EM - SNMoE: Iteration: 47 | log-likelihood: 89.9232982774211
-#> EM - SNMoE: Iteration: 48 | log-likelihood: 89.924486684481
-#> EM - SNMoE: Iteration: 49 | log-likelihood: 89.9256346463225
-#> EM - SNMoE: Iteration: 50 | log-likelihood: 89.926746437487
-#> EM - SNMoE: Iteration: 51 | log-likelihood: 89.9278174531042
-#> EM - SNMoE: Iteration: 52 | log-likelihood: 89.9288523726757
-#> EM - SNMoE: Iteration: 53 | log-likelihood: 89.9298540347897
-#> EM - SNMoE: Iteration: 54 | log-likelihood: 89.9308239575936
-#> EM - SNMoE: Iteration: 55 | log-likelihood: 89.9317595911389
-#> EM - SNMoE: Iteration: 56 | log-likelihood: 89.9326660449575
-#> EM - SNMoE: Iteration: 57 | log-likelihood: 89.9335417071985
-#> EM - SNMoE: Iteration: 58 | log-likelihood: 89.9343885455927
-#> EM - SNMoE: Iteration: 59 | log-likelihood: 89.9352095816839
-#> EM - SNMoE: Iteration: 60 | log-likelihood: 89.9360090339312
-#> EM - SNMoE: Iteration: 61 | log-likelihood: 89.9367842537818
-#> EM - SNMoE: Iteration: 62 | log-likelihood: 89.9375317280649
-#> EM - SNMoE: Iteration: 63 | log-likelihood: 89.9382559091798
-#> EM - SNMoE: Iteration: 64 | log-likelihood: 89.9389601130624
-#> EM - SNMoE: Iteration: 65 | log-likelihood: 89.9396392692981
-#> EM - SNMoE: Iteration: 66 | log-likelihood: 89.9402972964399
-#> EM - SNMoE: Iteration: 67 | log-likelihood: 89.9409362964514
-#> EM - SNMoE: Iteration: 68 | log-likelihood: 89.9415558568227
-#> EM - SNMoE: Iteration: 69 | log-likelihood: 89.9421569002572
-#> EM - SNMoE: Iteration: 70 | log-likelihood: 89.942738858573
-#> EM - SNMoE: Iteration: 71 | log-likelihood: 89.9433069004722
-#> EM - SNMoE: Iteration: 72 | log-likelihood: 89.9438586518292
-#> EM - SNMoE: Iteration: 73 | log-likelihood: 89.9443949687229
-#> EM - SNMoE: Iteration: 74 | log-likelihood: 89.9449174910383
-#> EM - SNMoE: Iteration: 75 | log-likelihood: 89.9454267780868
-#> EM - SNMoE: Iteration: 76 | log-likelihood: 89.9459199095124
-#> EM - SNMoE: Iteration: 77 | log-likelihood: 89.9464002008731
-#> EM - SNMoE: Iteration: 78 | log-likelihood: 89.9468681114473
-#> EM - SNMoE: Iteration: 79 | log-likelihood: 89.9473226826026
-#> EM - SNMoE: Iteration: 80 | log-likelihood: 89.9477648006379
-#> EM - SNMoE: Iteration: 81 | log-likelihood: 89.9481949202721
-#> EM - SNMoE: Iteration: 82 | log-likelihood: 89.9486151309058
-#> EM - SNMoE: Iteration: 83 | log-likelihood: 89.9490226300585
-#> EM - SNMoE: Iteration: 84 | log-likelihood: 89.949418798074
-#> EM - SNMoE: Iteration: 85 | log-likelihood: 89.9498051473077
-#> EM - SNMoE: Iteration: 86 | log-likelihood: 89.9501812430267
-#> EM - SNMoE: Iteration: 87 | log-likelihood: 89.9505465998675
-#> EM - SNMoE: Iteration: 88 | log-likelihood: 89.9509034147882
-#> EM - SNMoE: Iteration: 89 | log-likelihood: 89.9512525742312
-#> EM - SNMoE: Iteration: 90 | log-likelihood: 89.951592517097
-#> EM - SNMoE: Iteration: 91 | log-likelihood: 89.9519241841591
-#> EM - SNMoE: Iteration: 92 | log-likelihood: 89.952249154387
-#> EM - SNMoE: Iteration: 93 | log-likelihood: 89.9525654352305
-#> EM - SNMoE: Iteration: 94 | log-likelihood: 89.9528735994529
-#> EM - SNMoE: Iteration: 95 | log-likelihood: 89.9531744743882
-#> EM - SNMoE: Iteration: 96 | log-likelihood: 89.9534695273097
-#> EM - SNMoE: Iteration: 97 | log-likelihood: 89.9537567464975
-#> EM - SNMoE: Iteration: 98 | log-likelihood: 89.9540363419864
-#> EM - SNMoE: Iteration: 99 | log-likelihood: 89.9543083372913
-#> EM - SNMoE: Iteration: 100 | log-likelihood: 89.9545751620608
-#> EM - SNMoE: Iteration: 101 | log-likelihood: 89.9548365212899
-#> EM - SNMoE: Iteration: 102 | log-likelihood: 89.9550909074734
-#> EM - SNMoE: Iteration: 103 | log-likelihood: 89.9553391946948
-#> EM - SNMoE: Iteration: 104 | log-likelihood: 89.9555836915578
-#> EM - SNMoE: Iteration: 105 | log-likelihood: 89.9558234566691
-#> EM - SNMoE: Iteration: 106 | log-likelihood: 89.9560596156596
-#> EM - SNMoE: Iteration: 107 | log-likelihood: 89.9562893904808
-#> EM - SNMoE: Iteration: 108 | log-likelihood: 89.9565119848475
-#> EM - SNMoE: Iteration: 109 | log-likelihood: 89.9567300017807
-#> EM - SNMoE: Iteration: 110 | log-likelihood: 89.9569441436162
-#> EM - SNMoE: Iteration: 111 | log-likelihood: 89.9571544490872
-#> EM - SNMoE: Iteration: 112 | log-likelihood: 89.9573593485853
-#> EM - SNMoE: Iteration: 113 | log-likelihood: 89.9575608027123
-#> EM - SNMoE: Iteration: 114 | log-likelihood: 89.9577571721364
-#> EM - SNMoE: Iteration: 115 | log-likelihood: 89.9579468621322
-#> EM - SNMoE: Iteration: 116 | log-likelihood: 89.9581345041153
-#> EM - SNMoE: Iteration: 117 | log-likelihood: 89.9583176433149
-#> EM - SNMoE: Iteration: 118 | log-likelihood: 89.9584967012603
-#> EM - SNMoE: Iteration: 119 | log-likelihood: 89.9586716174923
-#> EM - SNMoE: Iteration: 120 | log-likelihood: 89.9588428957737
-#> EM - SNMoE: Iteration: 121 | log-likelihood: 89.9590119427588
-#> EM - SNMoE: Iteration: 122 | log-likelihood: 89.9591782261179
-#> EM - SNMoE: Iteration: 123 | log-likelihood: 89.9593385306234
-#> EM - SNMoE: Iteration: 124 | log-likelihood: 89.9594976460686
-#> EM - SNMoE: Iteration: 125 | log-likelihood: 89.9596572851884
-#> EM - SNMoE: Iteration: 126 | log-likelihood: 89.9598128689015
-#> EM - SNMoE: Iteration: 127 | log-likelihood: 89.959964186622
-#> EM - SNMoE: Iteration: 128 | log-likelihood: 89.960112426594
-#> EM - SNMoE: Iteration: 129 | log-likelihood: 89.9602583283217
-#> EM - SNMoE: Iteration: 130 | log-likelihood: 89.9604015719481
-#> EM - SNMoE: Iteration: 131 | log-likelihood: 89.9605416296643
-#> EM - SNMoE: Iteration: 132 | log-likelihood: 89.9606805559583
-#> EM - SNMoE: Iteration: 133 | log-likelihood: 89.9608161678787
-#> EM - SNMoE: Iteration: 134 | log-likelihood: 89.9609486903465
-#> EM - SNMoE: Iteration: 135 | log-likelihood: 89.96107870266
-#> EM - SNMoE: Iteration: 136 | log-likelihood: 89.9612062875673
-#> EM - SNMoE: Iteration: 137 | log-likelihood: 89.961331362754
-#> EM - SNMoE: Iteration: 138 | log-likelihood: 89.961454039905
-#> EM - SNMoE: Iteration: 139 | log-likelihood: 89.9615744028842
-#> EM - SNMoE: Iteration: 140 | log-likelihood: 89.9616927450662
-#> EM - SNMoE: Iteration: 141 | log-likelihood: 89.9618089258504
-#> EM - SNMoE: Iteration: 142 | log-likelihood: 89.9619234253471
-#> EM - SNMoE: Iteration: 143 | log-likelihood: 89.9620358054983
-#> EM - SNMoE: Iteration: 144 | log-likelihood: 89.9621459295385
-#> EM - SNMoE: Iteration: 145 | log-likelihood: 89.9622542750117
-#> EM - SNMoE: Iteration: 146 | log-likelihood: 89.9623609366156
-#> EM - SNMoE: Iteration: 147 | log-likelihood: 89.9624661642804
-#> EM - SNMoE: Iteration: 148 | log-likelihood: 89.9625689919369
-#> EM - SNMoE: Iteration: 149 | log-likelihood: 89.9626699420505
-#> EM - SNMoE: Iteration: 150 | log-likelihood: 89.9627691142685
-#> EM - SNMoE: Iteration: 151 | log-likelihood: 89.9628666402843
-#> EM - SNMoE: Iteration: 152 | log-likelihood: 89.962962493416
-#> EM - SNMoE: Iteration: 153 | log-likelihood: 89.9630567769394
-#> EM - SNMoE: Iteration: 154 | log-likelihood: 89.9631500933126
-#> EM - SNMoE: Iteration: 155 | log-likelihood: 89.9632429339704
-#> EM - SNMoE: Iteration: 156 | log-likelihood: 89.9633343775274
-#> EM - SNMoE: Iteration: 157 | log-likelihood: 89.9634240800603
+#> EM - SNMoE: Iteration: 1 | log-likelihood: 62.292138332677
+#> EM - SNMoE: Iteration: 2 | log-likelihood: 87.9145425373437
+#> EM - SNMoE: Iteration: 3 | log-likelihood: 89.0086739618696
+#> EM - SNMoE: Iteration: 4 | log-likelihood: 89.3937914630249
+#> EM - SNMoE: Iteration: 5 | log-likelihood: 89.6535757640902
+#> EM - SNMoE: Iteration: 6 | log-likelihood: 89.8306729565452
+#> EM - SNMoE: Iteration: 7 | log-likelihood: 89.9327809726066
+#> EM - SNMoE: Iteration: 8 | log-likelihood: 89.9900101339138
+#> EM - SNMoE: Iteration: 9 | log-likelihood: 90.0239748570575
+#> EM - SNMoE: Iteration: 10 | log-likelihood: 90.0475270018937
+#> EM - SNMoE: Iteration: 11 | log-likelihood: 90.0668977115359
+#> EM - SNMoE: Iteration: 12 | log-likelihood: 90.0840572217388
+#> EM - SNMoE: Iteration: 13 | log-likelihood: 90.0996801870063
+#> EM - SNMoE: Iteration: 14 | log-likelihood: 90.114322139282
+#> EM - SNMoE: Iteration: 15 | log-likelihood: 90.1282969436904
+#> EM - SNMoE: Iteration: 16 | log-likelihood: 90.1417415969409
+#> EM - SNMoE: Iteration: 17 | log-likelihood: 90.1547229730222
+#> EM - SNMoE: Iteration: 18 | log-likelihood: 90.1672833715162
+#> EM - SNMoE: Iteration: 19 | log-likelihood: 90.1794404195207
+#> EM - SNMoE: Iteration: 20 | log-likelihood: 90.1912239923447
+#> EM - SNMoE: Iteration: 21 | log-likelihood: 90.2026508363525
+#> EM - SNMoE: Iteration: 22 | log-likelihood: 90.2137384324658
+#> EM - SNMoE: Iteration: 23 | log-likelihood: 90.2245065555815
+#> EM - SNMoE: Iteration: 24 | log-likelihood: 90.2349750729752
+#> EM - SNMoE: Iteration: 25 | log-likelihood: 90.2452036384708
+#> EM - SNMoE: Iteration: 26 | log-likelihood: 90.255194718755
+#> EM - SNMoE: Iteration: 27 | log-likelihood: 90.2649308422496
+#> EM - SNMoE: Iteration: 28 | log-likelihood: 90.2744302834456
+#> EM - SNMoE: Iteration: 29 | log-likelihood: 90.2837106908074
+#> EM - SNMoE: Iteration: 30 | log-likelihood: 90.2928990112787
+#> EM - SNMoE: Iteration: 31 | log-likelihood: 90.3016166594444
+#> EM - SNMoE: Iteration: 32 | log-likelihood: 90.3102947751805
+#> EM - SNMoE: Iteration: 33 | log-likelihood: 90.318900466279
+#> EM - SNMoE: Iteration: 34 | log-likelihood: 90.3274306744404
+#> EM - SNMoE: Iteration: 35 | log-likelihood: 90.3358671627185
+#> EM - SNMoE: Iteration: 36 | log-likelihood: 90.3443859982734
+#> EM - SNMoE: Iteration: 37 | log-likelihood: 90.3526959594068
+#> EM - SNMoE: Iteration: 38 | log-likelihood: 90.3609977875098
+#> EM - SNMoE: Iteration: 39 | log-likelihood: 90.3692807155406
+#> EM - SNMoE: Iteration: 40 | log-likelihood: 90.3774653899762
+#> EM - SNMoE: Iteration: 41 | log-likelihood: 90.3856183967777
+#> EM - SNMoE: Iteration: 42 | log-likelihood: 90.393720562392
+#> EM - SNMoE: Iteration: 43 | log-likelihood: 90.4017868140956
+#> EM - SNMoE: Iteration: 44 | log-likelihood: 90.4098062308868
+#> EM - SNMoE: Iteration: 45 | log-likelihood: 90.4177820881849
+#> EM - SNMoE: Iteration: 46 | log-likelihood: 90.4257087087515
+#> EM - SNMoE: Iteration: 47 | log-likelihood: 90.4335795968909
+#> EM - SNMoE: Iteration: 48 | log-likelihood: 90.4413904823497
+#> EM - SNMoE: Iteration: 49 | log-likelihood: 90.4491411451583
+#> EM - SNMoE: Iteration: 50 | log-likelihood: 90.4568177335901
+#> EM - SNMoE: Iteration: 51 | log-likelihood: 90.4644226598137
+#> EM - SNMoE: Iteration: 52 | log-likelihood: 90.4719514584366
+#> EM - SNMoE: Iteration: 53 | log-likelihood: 90.479401028492
+#> EM - SNMoE: Iteration: 54 | log-likelihood: 90.4867728675382
+#> EM - SNMoE: Iteration: 55 | log-likelihood: 90.4940408877717
+#> EM - SNMoE: Iteration: 56 | log-likelihood: 90.5012509412612
+#> EM - SNMoE: Iteration: 57 | log-likelihood: 90.5083684584508
+#> EM - SNMoE: Iteration: 58 | log-likelihood: 90.5154189149307
+#> EM - SNMoE: Iteration: 59 | log-likelihood: 90.5223930629885
+#> EM - SNMoE: Iteration: 60 | log-likelihood: 90.5292946631728
+#> EM - SNMoE: Iteration: 61 | log-likelihood: 90.5361177953662
+#> EM - SNMoE: Iteration: 62 | log-likelihood: 90.5428708142414
+#> EM - SNMoE: Iteration: 63 | log-likelihood: 90.5495499096576
+#> EM - SNMoE: Iteration: 64 | log-likelihood: 90.5561559212972
+#> EM - SNMoE: Iteration: 65 | log-likelihood: 90.5626843501471
+#> EM - SNMoE: Iteration: 66 | log-likelihood: 90.5691420841755
+#> EM - SNMoE: Iteration: 67 | log-likelihood: 90.5755235491849
+#> EM - SNMoE: Iteration: 68 | log-likelihood: 90.5818282391941
+#> EM - SNMoE: Iteration: 69 | log-likelihood: 90.588057662454
+#> EM - SNMoE: Iteration: 70 | log-likelihood: 90.5942112112893
+#> EM - SNMoE: Iteration: 71 | log-likelihood: 90.6002904111158
+#> EM - SNMoE: Iteration: 72 | log-likelihood: 90.6062951042856
+#> EM - SNMoE: Iteration: 73 | log-likelihood: 90.6122217992879
+#> EM - SNMoE: Iteration: 74 | log-likelihood: 90.6180722178595
+#> EM - SNMoE: Iteration: 75 | log-likelihood: 90.6238454668585
+#> EM - SNMoE: Iteration: 76 | log-likelihood: 90.6295405360689
+#> EM - SNMoE: Iteration: 77 | log-likelihood: 90.6351564394961
+#> EM - SNMoE: Iteration: 78 | log-likelihood: 90.6406924459854
+#> EM - SNMoE: Iteration: 79 | log-likelihood: 90.6461477415273
+#> EM - SNMoE: Iteration: 80 | log-likelihood: 90.6515164371587
+#> EM - SNMoE: Iteration: 81 | log-likelihood: 90.6568037706302
+#> EM - SNMoE: Iteration: 82 | log-likelihood: 90.6620091052585
+#> EM - SNMoE: Iteration: 83 | log-likelihood: 90.667130410317
+#> EM - SNMoE: Iteration: 84 | log-likelihood: 90.6721658072011
+#> EM - SNMoE: Iteration: 85 | log-likelihood: 90.6771148463352
+#> EM - SNMoE: Iteration: 86 | log-likelihood: 90.681975635394
+#> EM - SNMoE: Iteration: 87 | log-likelihood: 90.6867485519895
+#> EM - SNMoE: Iteration: 88 | log-likelihood: 90.6914280877635
+#> EM - SNMoE: Iteration: 89 | log-likelihood: 90.6960216984873
+#> EM - SNMoE: Iteration: 90 | log-likelihood: 90.700522990832
+#> EM - SNMoE: Iteration: 91 | log-likelihood: 90.7049253352189
+#> EM - SNMoE: Iteration: 92 | log-likelihood: 90.709224577687
+#> EM - SNMoE: Iteration: 93 | log-likelihood: 90.7134204651541
+#> EM - SNMoE: Iteration: 94 | log-likelihood: 90.7175128344209
+#> EM - SNMoE: Iteration: 95 | log-likelihood: 90.7215671817578
+#> EM - SNMoE: Iteration: 96 | log-likelihood: 90.7252765782458
+#> EM - SNMoE: Iteration: 97 | log-likelihood: 90.7291598798633
+#> EM - SNMoE: Iteration: 98 | log-likelihood: 90.7327071459299
+#> EM - SNMoE: Iteration: 99 | log-likelihood: 90.7361862704723
+#> EM - SNMoE: Iteration: 100 | log-likelihood: 90.7395673235959
+#> EM - SNMoE: Iteration: 101 | log-likelihood: 90.7428509976105
+#> EM - SNMoE: Iteration: 102 | log-likelihood: 90.7460719415064
+#> EM - SNMoE: Iteration: 103 | log-likelihood: 90.749148330663
+#> EM - SNMoE: Iteration: 104 | log-likelihood: 90.7521504284841
+#> EM - SNMoE: Iteration: 105 | log-likelihood: 90.7550452978402
+#> EM - SNMoE: Iteration: 106 | log-likelihood: 90.7578330083901
+#> EM - SNMoE: Iteration: 107 | log-likelihood: 90.7605218349915
+#> EM - SNMoE: Iteration: 108 | log-likelihood: 90.7631207727075
+#> EM - SNMoE: Iteration: 109 | log-likelihood: 90.7656309322501
+#> EM - SNMoE: Iteration: 110 | log-likelihood: 90.7681987652464
+#> EM - SNMoE: Iteration: 111 | log-likelihood: 90.7705554083849
+#> EM - SNMoE: Iteration: 112 | log-likelihood: 90.7727831095643
+#> EM - SNMoE: Iteration: 113 | log-likelihood: 90.7749301181656
+#> EM - SNMoE: Iteration: 114 | log-likelihood: 90.7770198273515
+#> EM - SNMoE: Iteration: 115 | log-likelihood: 90.7790073891405
+#> EM - SNMoE: Iteration: 116 | log-likelihood: 90.7809308289703
+#> EM - SNMoE: Iteration: 117 | log-likelihood: 90.7827763625305
+#> EM - SNMoE: Iteration: 118 | log-likelihood: 90.7845439068696
+#> EM - SNMoE: Iteration: 119 | log-likelihood: 90.7862393745289
+#> EM - SNMoE: Iteration: 120 | log-likelihood: 90.7878675208113
+#> EM - SNMoE: Iteration: 121 | log-likelihood: 90.7894302838505
+#> EM - SNMoE: Iteration: 122 | log-likelihood: 90.7909296453262
+#> EM - SNMoE: Iteration: 123 | log-likelihood: 90.7923678843603
+#> EM - SNMoE: Iteration: 124 | log-likelihood: 90.7938593408333
+#> EM - SNMoE: Iteration: 125 | log-likelihood: 90.7951720999987
+#> EM - SNMoE: Iteration: 126 | log-likelihood: 90.7964313348435
+#> EM - SNMoE: Iteration: 127 | log-likelihood: 90.7976391837204
+#> EM - SNMoE: Iteration: 128 | log-likelihood: 90.7987952062374
+#> EM - SNMoE: Iteration: 129 | log-likelihood: 90.7999014144276
+#> EM - SNMoE: Iteration: 130 | log-likelihood: 90.8009598238791
+#> EM - SNMoE: Iteration: 131 | log-likelihood: 90.8019888206512
+#> EM - SNMoE: Iteration: 132 | log-likelihood: 90.8029562142312
+#> EM - SNMoE: Iteration: 133 | log-likelihood: 90.8038899405207
+#> EM - SNMoE: Iteration: 134 | log-likelihood: 90.8047809346196
+#> EM - SNMoE: Iteration: 135 | log-likelihood: 90.8056288697112
+#> EM - SNMoE: Iteration: 136 | log-likelihood: 90.8064365102508
+#> EM - SNMoE: Iteration: 137 | log-likelihood: 90.8072083975976
+#> EM - SNMoE: Iteration: 138 | log-likelihood: 90.8079459623392
+#> EM - SNMoE: Iteration: 139 | log-likelihood: 90.8086504624255
+#> EM - SNMoE: Iteration: 140 | log-likelihood: 90.8093228982677
+#> EM - SNMoE: Iteration: 141 | log-likelihood: 90.8099654751608
+#> EM - SNMoE: Iteration: 142 | log-likelihood: 90.8106446102449
+#> EM - SNMoE: Iteration: 143 | log-likelihood: 90.8112306380695
+#> EM - SNMoE: Iteration: 144 | log-likelihood: 90.8117910134191
+#> EM - SNMoE: Iteration: 145 | log-likelihood: 90.8123264869821
+#> EM - SNMoE: Iteration: 146 | log-likelihood: 90.8128353064792
+#> EM - SNMoE: Iteration: 147 | log-likelihood: 90.813320758887
+#> EM - SNMoE: Iteration: 148 | log-likelihood: 90.8137841377893
+#> EM - SNMoE: Iteration: 149 | log-likelihood: 90.8142266707801
+#> EM - SNMoE: Iteration: 150 | log-likelihood: 90.8146593536573
+#> EM - SNMoE: Iteration: 151 | log-likelihood: 90.8150625412625
+#> EM - SNMoE: Iteration: 152 | log-likelihood: 90.8154579266665
+#> EM - SNMoE: Iteration: 153 | log-likelihood: 90.8158258545648
+#> EM - SNMoE: Iteration: 154 | log-likelihood: 90.8161773354621
+#> EM - SNMoE: Iteration: 155 | log-likelihood: 90.8165130292432
+#> EM - SNMoE: Iteration: 156 | log-likelihood: 90.8168339082089
+#> EM - SNMoE: Iteration: 157 | log-likelihood: 90.8171408598141
+#> EM - SNMoE: Iteration: 158 | log-likelihood: 90.8174343507612
+#> EM - SNMoE: Iteration: 159 | log-likelihood: 90.8177150405841
+#> EM - SNMoE: Iteration: 160 | log-likelihood: 90.8179829474516
+#> EM - SNMoE: Iteration: 161 | log-likelihood: 90.8182386605315
+#> EM - SNMoE: Iteration: 162 | log-likelihood: 90.8185290095565
+#> EM - SNMoE: Iteration: 163 | log-likelihood: 90.818718303285
+#> EM - SNMoE: Iteration: 164 | log-likelihood: 90.8189892103138
+#> EM - SNMoE: Iteration: 165 | log-likelihood: 90.8192039239698
+#> EM - SNMoE: Iteration: 166 | log-likelihood: 90.8193641478361
+#> EM - SNMoE: Iteration: 167 | log-likelihood: 90.8196070442012
+#> EM - SNMoE: Iteration: 168 | log-likelihood: 90.8197949331449
+#> EM - SNMoE: Iteration: 169 | log-likelihood: 90.81997483171
+#> EM - SNMoE: Iteration: 170 | log-likelihood: 90.8201473016286
+#> EM - SNMoE: Iteration: 171 | log-likelihood: 90.8203136768737
+#> EM - SNMoE: Iteration: 172 | log-likelihood: 90.8204744695155
+#> EM - SNMoE: Iteration: 173 | log-likelihood: 90.820628259348
+#> EM - SNMoE: Iteration: 174 | log-likelihood: 90.8207754470074
+#> EM - SNMoE: Iteration: 175 | log-likelihood: 90.8209167839697
+#> EM - SNMoE: Iteration: 176 | log-likelihood: 90.8210525848093
+#> EM - SNMoE: Iteration: 177 | log-likelihood: 90.8211826587277
+#> EM - SNMoE: Iteration: 178 | log-likelihood: 90.8213073953412
+#> EM - SNMoE: Iteration: 179 | log-likelihood: 90.8214281260729
+#> EM - SNMoE: Iteration: 180 | log-likelihood: 90.8215444184688
+#> EM - SNMoE: Iteration: 181 | log-likelihood: 90.821656408958
+#> EM - SNMoE: Iteration: 182 | log-likelihood: 90.8217642942328
+#> EM - SNMoE: Iteration: 183 | log-likelihood: 90.8218682729254
+#> EM - SNMoE: Iteration: 184 | log-likelihood: 90.8219689323786
+#> EM - SNMoE: Iteration: 185 | log-likelihood: 90.8220661409908
+#> EM - SNMoE: Iteration: 186 | log-likelihood: 90.8221825393501
+#> EM - SNMoE: Iteration: 187 | log-likelihood: 90.8222726222892
 
 snmoe$summary()
 #> -----------------------------------------------
@@ -850,24 +795,24 @@ snmoe$summary()
 #> 
 #> SNMoE model with K = 2 experts:
 #> 
-#>  log-likelihood df      AIC      BIC      ICL
-#>        89.96342 10 79.96342 65.40015 65.30379
+#>  log-likelihood df      AIC    BIC      ICL
+#>        90.82227 10 80.82227 66.259 66.16274
 #> 
 #> Clustering table (Number of observations in each expert):
 #> 
 #>  1  2 
-#> 70 66 
+#> 69 67 
 #> 
 #> Regression coefficients:
 #> 
 #>       Beta(k = 1)  Beta(k = 2)
-#> 1   -14.029751324 -33.81088200
-#> X^1   0.007204144   0.01720045
+#> 1   -14.217412214 -32.63731250
+#> X^1   0.007303448   0.01668922
 #> 
 #> Variances:
 #> 
 #>  Sigma2(k = 1) Sigma2(k = 2)
-#>     0.01485546    0.01748808
+#>     0.01492812    0.03739716
 
 snmoe$plot()
 ```
@@ -902,121 +847,172 @@ p <- 1 # Order of the polynomial regression (regressors/experts)
 q <- 1 # Order of the logistic regression (gating network)
 
 stmoe <- emStMoE(X = x, Y = y, K = K, p = p, q = q, verbose = TRUE)
-#> EM - StMoE: Iteration: 1 | log-likelihood: -326.041142112052
-#> EM - StMoE: Iteration: 2 | log-likelihood: -301.221140200205
-#> EM - StMoE: Iteration: 3 | log-likelihood: -295.7529188343
-#> EM - StMoE: Iteration: 4 | log-likelihood: -293.125388781005
-#> EM - StMoE: Iteration: 5 | log-likelihood: -291.760273658137
-#> EM - StMoE: Iteration: 6 | log-likelihood: -291.033293751701
-#> EM - StMoE: Iteration: 7 | log-likelihood: -290.608928639799
-#> EM - StMoE: Iteration: 8 | log-likelihood: -290.324452917206
-#> EM - StMoE: Iteration: 9 | log-likelihood: -290.10408474491
-#> EM - StMoE: Iteration: 10 | log-likelihood: -289.912182528244
-#> EM - StMoE: Iteration: 11 | log-likelihood: -289.730628198727
-#> EM - StMoE: Iteration: 12 | log-likelihood: -289.548688388011
-#> EM - StMoE: Iteration: 13 | log-likelihood: -289.35849474325
-#> EM - StMoE: Iteration: 14 | log-likelihood: -289.15257733971
-#> EM - StMoE: Iteration: 15 | log-likelihood: -288.922292169938
-#> EM - StMoE: Iteration: 16 | log-likelihood: -288.656390533393
-#> EM - StMoE: Iteration: 17 | log-likelihood: -288.340102386293
-#> EM - StMoE: Iteration: 18 | log-likelihood: -287.952849936106
-#> EM - StMoE: Iteration: 19 | log-likelihood: -287.466677893043
-#> EM - StMoE: Iteration: 20 | log-likelihood: -286.843608204731
-#> EM - StMoE: Iteration: 21 | log-likelihood: -286.034973023535
-#> EM - StMoE: Iteration: 22 | log-likelihood: -284.989194946671
-#> EM - StMoE: Iteration: 23 | log-likelihood: -283.657865054716
-#> EM - StMoE: Iteration: 24 | log-likelihood: -282.004825628947
-#> EM - StMoE: Iteration: 25 | log-likelihood: -280.037201469535
-#> EM - StMoE: Iteration: 26 | log-likelihood: -277.803770099349
-#> EM - StMoE: Iteration: 27 | log-likelihood: -275.381313512759
-#> EM - StMoE: Iteration: 28 | log-likelihood: -272.85210616757
-#> EM - StMoE: Iteration: 29 | log-likelihood: -270.287899066753
-#> EM - StMoE: Iteration: 30 | log-likelihood: -267.740668311468
-#> EM - StMoE: Iteration: 31 | log-likelihood: -265.239459037183
-#> EM - StMoE: Iteration: 32 | log-likelihood: -262.79794764042
-#> EM - StMoE: Iteration: 33 | log-likelihood: -260.415013385513
-#> EM - StMoE: Iteration: 34 | log-likelihood: -258.095921389171
-#> EM - StMoE: Iteration: 35 | log-likelihood: -255.848922951716
-#> EM - StMoE: Iteration: 36 | log-likelihood: -253.681391485117
-#> EM - StMoE: Iteration: 37 | log-likelihood: -251.606331028378
-#> EM - StMoE: Iteration: 38 | log-likelihood: -249.636940683139
-#> EM - StMoE: Iteration: 39 | log-likelihood: -247.798534856395
-#> EM - StMoE: Iteration: 40 | log-likelihood: -246.114605429326
-#> EM - StMoE: Iteration: 41 | log-likelihood: -244.59340130094
-#> EM - StMoE: Iteration: 42 | log-likelihood: -243.237564750728
-#> EM - StMoE: Iteration: 43 | log-likelihood: -242.03943496353
-#> EM - StMoE: Iteration: 44 | log-likelihood: -240.989605663392
-#> EM - StMoE: Iteration: 45 | log-likelihood: -240.077636763046
-#> EM - StMoE: Iteration: 46 | log-likelihood: -239.290325426541
-#> EM - StMoE: Iteration: 47 | log-likelihood: -238.609966751538
-#> EM - StMoE: Iteration: 48 | log-likelihood: -238.022678856668
-#> EM - StMoE: Iteration: 49 | log-likelihood: -237.522044389653
-#> EM - StMoE: Iteration: 50 | log-likelihood: -237.095545025482
-#> EM - StMoE: Iteration: 51 | log-likelihood: -236.731947795134
-#> EM - StMoE: Iteration: 52 | log-likelihood: -236.420405609026
-#> EM - StMoE: Iteration: 53 | log-likelihood: -236.152621017281
-#> EM - StMoE: Iteration: 54 | log-likelihood: -235.922093762084
-#> EM - StMoE: Iteration: 55 | log-likelihood: -235.722712292573
-#> EM - StMoE: Iteration: 56 | log-likelihood: -235.549856088963
-#> EM - StMoE: Iteration: 57 | log-likelihood: -235.399500526415
-#> EM - StMoE: Iteration: 58 | log-likelihood: -235.268533713439
-#> EM - StMoE: Iteration: 59 | log-likelihood: -235.155433143593
-#> EM - StMoE: Iteration: 60 | log-likelihood: -235.057208295651
-#> EM - StMoE: Iteration: 61 | log-likelihood: -234.972010422809
-#> EM - StMoE: Iteration: 62 | log-likelihood: -234.898404261523
-#> EM - StMoE: Iteration: 63 | log-likelihood: -234.834322313738
-#> EM - StMoE: Iteration: 64 | log-likelihood: -234.778298116737
-#> EM - StMoE: Iteration: 65 | log-likelihood: -234.728951071968
-#> EM - StMoE: Iteration: 66 | log-likelihood: -234.685449865249
-#> EM - StMoE: Iteration: 67 | log-likelihood: -234.647335248107
-#> EM - StMoE: Iteration: 68 | log-likelihood: -234.613823569928
-#> EM - StMoE: Iteration: 69 | log-likelihood: -234.584502524536
-#> EM - StMoE: Iteration: 70 | log-likelihood: -234.559013318302
-#> EM - StMoE: Iteration: 71 | log-likelihood: -234.536743482429
-#> EM - StMoE: Iteration: 72 | log-likelihood: -234.517025459934
-#> EM - StMoE: Iteration: 73 | log-likelihood: -234.499469474243
-#> EM - StMoE: Iteration: 74 | log-likelihood: -234.483811017257
-#> EM - StMoE: Iteration: 75 | log-likelihood: -234.469721775564
-#> EM - StMoE: Iteration: 76 | log-likelihood: -234.456946424485
-#> EM - StMoE: Iteration: 77 | log-likelihood: -234.445342951829
-#> EM - StMoE: Iteration: 78 | log-likelihood: -234.434853206483
-#> EM - StMoE: Iteration: 79 | log-likelihood: -234.425291093861
-#> EM - StMoE: Iteration: 80 | log-likelihood: -234.416564209038
-#> EM - StMoE: Iteration: 81 | log-likelihood: -234.408500710662
-#> EM - StMoE: Iteration: 82 | log-likelihood: -234.401002621645
-#> EM - StMoE: Iteration: 83 | log-likelihood: -234.394017189404
-#> EM - StMoE: Iteration: 84 | log-likelihood: -234.387486870111
-#> EM - StMoE: Iteration: 85 | log-likelihood: -234.381364619696
-#> EM - StMoE: Iteration: 86 | log-likelihood: -234.375611596597
-#> EM - StMoE: Iteration: 87 | log-likelihood: -234.370195416964
-#> EM - StMoE: Iteration: 88 | log-likelihood: -234.365088816776
-#> EM - StMoE: Iteration: 89 | log-likelihood: -234.360268616897
-#> EM - StMoE: Iteration: 90 | log-likelihood: -234.355714916078
-#> EM - StMoE: Iteration: 91 | log-likelihood: -234.351410457207
-#> EM - StMoE: Iteration: 92 | log-likelihood: -234.347340126501
-#> EM - StMoE: Iteration: 93 | log-likelihood: -234.343490555624
-#> EM - StMoE: Iteration: 94 | log-likelihood: -234.339849804179
-#> EM - StMoE: Iteration: 95 | log-likelihood: -234.336407105411
-#> EM - StMoE: Iteration: 96 | log-likelihood: -234.333152661975
-#> EM - StMoE: Iteration: 97 | log-likelihood: -234.330077481577
-#> EM - StMoE: Iteration: 98 | log-likelihood: -234.327173244529
-#> EM - StMoE: Iteration: 99 | log-likelihood: -234.324432196955
-#> EM - StMoE: Iteration: 100 | log-likelihood: -234.321847064669
-#> EM - StMoE: Iteration: 101 | log-likelihood: -234.319410983762
-#> EM - StMoE: Iteration: 102 | log-likelihood: -234.317117444703
-#> EM - StMoE: Iteration: 103 | log-likelihood: -234.314960247383
-#> EM - StMoE: Iteration: 104 | log-likelihood: -234.312900748446
-#> EM - StMoE: Iteration: 105 | log-likelihood: -234.310970995962
-#> EM - StMoE: Iteration: 106 | log-likelihood: -234.309164357136
-#> EM - StMoE: Iteration: 107 | log-likelihood: -234.3076130856
-#> EM - StMoE: Iteration: 108 | log-likelihood: -234.306324568509
-#> EM - StMoE: Iteration: 109 | log-likelihood: -234.305265066313
-#> EM - StMoE: Iteration: 110 | log-likelihood: -234.304405818427
-#> EM - StMoE: Iteration: 111 | log-likelihood: -234.303720630847
-#> EM - StMoE: Iteration: 112 | log-likelihood: -234.303187684752
-#> EM - StMoE: Iteration: 113 | log-likelihood: -234.302789201114
-#> EM - StMoE: Iteration: 114 | log-likelihood: -234.302509865538
-#> EM - StMoE: Iteration: 115 | log-likelihood: -234.302336447045
+#> EM - StMoE: Iteration: 1 | log-likelihood: -440.883552325807
+#> EM - StMoE: Iteration: 2 | log-likelihood: -375.041451068938
+#> EM - StMoE: Iteration: 3 | log-likelihood: -362.870294323756
+#> EM - StMoE: Iteration: 4 | log-likelihood: -353.094409813433
+#> EM - StMoE: Iteration: 5 | log-likelihood: -345.084704974844
+#> EM - StMoE: Iteration: 6 | log-likelihood: -338.385721447189
+#> EM - StMoE: Iteration: 7 | log-likelihood: -332.711434207247
+#> EM - StMoE: Iteration: 8 | log-likelihood: -327.869250919329
+#> EM - StMoE: Iteration: 9 | log-likelihood: -323.722486281363
+#> EM - StMoE: Iteration: 10 | log-likelihood: -320.174322569213
+#> EM - StMoE: Iteration: 11 | log-likelihood: -317.145317584615
+#> EM - StMoE: Iteration: 12 | log-likelihood: -314.564125534049
+#> EM - StMoE: Iteration: 13 | log-likelihood: -312.365799387958
+#> EM - StMoE: Iteration: 14 | log-likelihood: -310.494816434848
+#> EM - StMoE: Iteration: 15 | log-likelihood: -308.90734115717
+#> EM - StMoE: Iteration: 16 | log-likelihood: -307.562662018129
+#> EM - StMoE: Iteration: 17 | log-likelihood: -306.431863696511
+#> EM - StMoE: Iteration: 18 | log-likelihood: -305.491159408921
+#> EM - StMoE: Iteration: 19 | log-likelihood: -304.713201844797
+#> EM - StMoE: Iteration: 20 | log-likelihood: -304.076291722324
+#> EM - StMoE: Iteration: 21 | log-likelihood: -303.556264095577
+#> EM - StMoE: Iteration: 22 | log-likelihood: -303.133105733088
+#> EM - StMoE: Iteration: 23 | log-likelihood: -302.788962131677
+#> EM - StMoE: Iteration: 24 | log-likelihood: -302.510214757931
+#> EM - StMoE: Iteration: 25 | log-likelihood: -302.284355856085
+#> EM - StMoE: Iteration: 26 | log-likelihood: -302.102709492201
+#> EM - StMoE: Iteration: 27 | log-likelihood: -301.952229413618
+#> EM - StMoE: Iteration: 28 | log-likelihood: -301.828306594261
+#> EM - StMoE: Iteration: 29 | log-likelihood: -301.727844905847
+#> EM - StMoE: Iteration: 30 | log-likelihood: -301.648397641675
+#> EM - StMoE: Iteration: 31 | log-likelihood: -301.587551566133
+#> EM - StMoE: Iteration: 32 | log-likelihood: -301.543221465035
+#> EM - StMoE: Iteration: 33 | log-likelihood: -301.513271473494
+#> EM - StMoE: Iteration: 34 | log-likelihood: -301.493057761561
+#> EM - StMoE: Iteration: 35 | log-likelihood: -301.479539851439
+#> EM - StMoE: Iteration: 36 | log-likelihood: -301.472848664551
+#> EM - StMoE: Iteration: 37 | log-likelihood: -301.470938151252
+#> EM - StMoE: Iteration: 38 | log-likelihood: -301.473915142384
+#> EM - StMoE: Iteration: 39 | log-likelihood: -301.482189626534
+#> EM - StMoE: Iteration: 40 | log-likelihood: -301.492724445284
+#> EM - StMoE: Iteration: 41 | log-likelihood: -301.504430808141
+#> EM - StMoE: Iteration: 42 | log-likelihood: -301.520362479513
+#> EM - StMoE: Iteration: 43 | log-likelihood: -301.537844646926
+#> EM - StMoE: Iteration: 44 | log-likelihood: -301.558557865998
+#> EM - StMoE: Iteration: 45 | log-likelihood: -301.580326531981
+#> EM - StMoE: Iteration: 46 | log-likelihood: -301.6019097139
+#> EM - StMoE: Iteration: 47 | log-likelihood: -301.622978880623
+#> EM - StMoE: Iteration: 48 | log-likelihood: -301.643425685362
+#> EM - StMoE: Iteration: 49 | log-likelihood: -301.663097097178
+#> EM - StMoE: Iteration: 50 | log-likelihood: -301.682215354801
+#> EM - StMoE: Iteration: 51 | log-likelihood: -301.70079024187
+#> EM - StMoE: Iteration: 52 | log-likelihood: -301.719757725239
+#> EM - StMoE: Iteration: 53 | log-likelihood: -301.739381113304
+#> EM - StMoE: Iteration: 54 | log-likelihood: -301.759540649247
+#> EM - StMoE: Iteration: 55 | log-likelihood: -301.779249480904
+#> EM - StMoE: Iteration: 56 | log-likelihood: -301.797911724126
+#> EM - StMoE: Iteration: 57 | log-likelihood: -301.81623977499
+#> EM - StMoE: Iteration: 58 | log-likelihood: -301.833272923682
+#> EM - StMoE: Iteration: 59 | log-likelihood: -301.849360112204
+#> EM - StMoE: Iteration: 60 | log-likelihood: -301.864650313966
+#> EM - StMoE: Iteration: 61 | log-likelihood: -301.879219103222
+#> EM - StMoE: Iteration: 62 | log-likelihood: -301.893072095918
+#> EM - StMoE: Iteration: 63 | log-likelihood: -301.906573460693
+#> EM - StMoE: Iteration: 64 | log-likelihood: -301.919762960663
+#> EM - StMoE: Iteration: 65 | log-likelihood: -301.932522405111
+#> EM - StMoE: Iteration: 66 | log-likelihood: -301.945156344736
+#> EM - StMoE: Iteration: 67 | log-likelihood: -301.957387126573
+#> EM - StMoE: Iteration: 68 | log-likelihood: -301.969115554813
+#> EM - StMoE: Iteration: 69 | log-likelihood: -301.98037510572
+#> EM - StMoE: Iteration: 70 | log-likelihood: -301.991617754184
+#> EM - StMoE: Iteration: 71 | log-likelihood: -302.002560717356
+#> EM - StMoE: Iteration: 72 | log-likelihood: -302.013087192795
+#> EM - StMoE: Iteration: 73 | log-likelihood: -302.023158356658
+#> EM - StMoE: Iteration: 74 | log-likelihood: -302.033353078519
+#> EM - StMoE: Iteration: 75 | log-likelihood: -302.043205904383
+#> EM - StMoE: Iteration: 76 | log-likelihood: -302.052643511154
+#> EM - StMoE: Iteration: 77 | log-likelihood: -302.061810797848
+#> EM - StMoE: Iteration: 78 | log-likelihood: -302.070902764504
+#> EM - StMoE: Iteration: 79 | log-likelihood: -302.07973925995
+#> EM - StMoE: Iteration: 80 | log-likelihood: -302.088242899838
+#> EM - StMoE: Iteration: 81 | log-likelihood: -302.096388313632
+#> EM - StMoE: Iteration: 82 | log-likelihood: -302.104175694891
+#> EM - StMoE: Iteration: 83 | log-likelihood: -302.111617068742
+#> EM - StMoE: Iteration: 84 | log-likelihood: -302.118925441493
+#> EM - StMoE: Iteration: 85 | log-likelihood: -302.125457707218
+#> EM - StMoE: Iteration: 86 | log-likelihood: -302.13197004521
+#> EM - StMoE: Iteration: 87 | log-likelihood: -302.138129224314
+#> EM - StMoE: Iteration: 88 | log-likelihood: -302.144160520975
+#> EM - StMoE: Iteration: 89 | log-likelihood: -302.149916599427
+#> EM - StMoE: Iteration: 90 | log-likelihood: -302.155426446231
+#> EM - StMoE: Iteration: 91 | log-likelihood: -302.160714471348
+#> EM - StMoE: Iteration: 92 | log-likelihood: -302.165802591342
+#> EM - StMoE: Iteration: 93 | log-likelihood: -302.170710814011
+#> EM - StMoE: Iteration: 94 | log-likelihood: -302.175457223439
+#> EM - StMoE: Iteration: 95 | log-likelihood: -302.180057795817
+#> EM - StMoE: Iteration: 96 | log-likelihood: -302.184526236955
+#> EM - StMoE: Iteration: 97 | log-likelihood: -302.188117253055
+#> EM - StMoE: Iteration: 98 | log-likelihood: -302.191944047832
+#> EM - StMoE: Iteration: 99 | log-likelihood: -302.195764719166
+#> EM - StMoE: Iteration: 100 | log-likelihood: -302.199416754305
+#> EM - StMoE: Iteration: 101 | log-likelihood: -302.202913987336
+#> EM - StMoE: Iteration: 102 | log-likelihood: -302.206266279947
+#> EM - StMoE: Iteration: 103 | log-likelihood: -302.209481287433
+#> EM - StMoE: Iteration: 104 | log-likelihood: -302.21256540455
+#> EM - StMoE: Iteration: 105 | log-likelihood: -302.215524201826
+#> EM - StMoE: Iteration: 106 | log-likelihood: -302.21844028189
+#> EM - StMoE: Iteration: 107 | log-likelihood: -302.221347360257
+#> EM - StMoE: Iteration: 108 | log-likelihood: -302.224198487454
+#> EM - StMoE: Iteration: 109 | log-likelihood: -302.226968823771
+#> EM - StMoE: Iteration: 110 | log-likelihood: -302.22964637945
+#> EM - StMoE: Iteration: 111 | log-likelihood: -302.232226540156
+#> EM - StMoE: Iteration: 112 | log-likelihood: -302.234708840608
+#> EM - StMoE: Iteration: 113 | log-likelihood: -302.237095073969
+#> EM - StMoE: Iteration: 114 | log-likelihood: -302.239388193955
+#> EM - StMoE: Iteration: 115 | log-likelihood: -302.241591686042
+#> EM - StMoE: Iteration: 116 | log-likelihood: -302.243709214893
+#> EM - StMoE: Iteration: 117 | log-likelihood: -302.245744433168
+#> EM - StMoE: Iteration: 118 | log-likelihood: -302.247700883553
+#> EM - StMoE: Iteration: 119 | log-likelihood: -302.24958195369
+#> EM - StMoE: Iteration: 120 | log-likelihood: -302.251390860385
+#> EM - StMoE: Iteration: 121 | log-likelihood: -302.253130649339
+#> EM - StMoE: Iteration: 122 | log-likelihood: -302.254804202543
+#> EM - StMoE: Iteration: 123 | log-likelihood: -302.256414248943
+#> EM - StMoE: Iteration: 124 | log-likelihood: -302.257963375992
+#> EM - StMoE: Iteration: 125 | log-likelihood: -302.25945404088
+#> EM - StMoE: Iteration: 126 | log-likelihood: -302.260888580875
+#> EM - StMoE: Iteration: 127 | log-likelihood: -302.262269222598
+#> EM - StMoE: Iteration: 128 | log-likelihood: -302.263598090208
+#> EM - StMoE: Iteration: 129 | log-likelihood: -302.264877212588
+#> EM - StMoE: Iteration: 130 | log-likelihood: -302.266108529644
+#> EM - StMoE: Iteration: 131 | log-likelihood: -302.26729389785
+#> EM - StMoE: Iteration: 132 | log-likelihood: -302.268435095155
+#> EM - StMoE: Iteration: 133 | log-likelihood: -302.269533825348
+#> EM - StMoE: Iteration: 134 | log-likelihood: -302.270591721985
+#> EM - StMoE: Iteration: 135 | log-likelihood: -302.271610351937
+#> EM - StMoE: Iteration: 136 | log-likelihood: -302.272591218634
+#> EM - StMoE: Iteration: 137 | log-likelihood: -302.273535765038
+#> EM - StMoE: Iteration: 138 | log-likelihood: -302.274445376409
+#> EM - StMoE: Iteration: 139 | log-likelihood: -302.276048594329
+#> EM - StMoE: Iteration: 140 | log-likelihood: -302.277295858768
+#> EM - StMoE: Iteration: 141 | log-likelihood: -302.278329251585
+#> EM - StMoE: Iteration: 142 | log-likelihood: -302.27922826416
+#> EM - StMoE: Iteration: 143 | log-likelihood: -302.280037968947
+#> EM - StMoE: Iteration: 144 | log-likelihood: -302.280784391465
+#> EM - StMoE: Iteration: 145 | log-likelihood: -302.28148293074
+#> EM - StMoE: Iteration: 146 | log-likelihood: -302.282142994437
+#> EM - StMoE: Iteration: 147 | log-likelihood: -302.282770566065
+#> EM - StMoE: Iteration: 148 | log-likelihood: -302.283369637877
+#> EM - StMoE: Iteration: 149 | log-likelihood: -302.283943018484
+#> EM - StMoE: Iteration: 150 | log-likelihood: -302.284492793652
+#> EM - StMoE: Iteration: 151 | log-likelihood: -302.285020593249
+#> EM - StMoE: Iteration: 152 | log-likelihood: -302.285527748826
+#> EM - StMoE: Iteration: 153 | log-likelihood: -302.286015388739
+#> EM - StMoE: Iteration: 154 | log-likelihood: -302.286484497098
+#> EM - StMoE: Iteration: 155 | log-likelihood: -302.286935951393
+#> EM - StMoE: Iteration: 156 | log-likelihood: -302.287370547269
+#> EM - StMoE: Iteration: 157 | log-likelihood: -302.287789015395
+#> EM - StMoE: Iteration: 158 | log-likelihood: -302.288192033309
+#> EM - StMoE: Iteration: 159 | log-likelihood: -302.288580234002
+#> EM - StMoE: Iteration: 160 | log-likelihood: -302.288954212308
+#> EM - StMoE: Iteration: 161 | log-likelihood: -302.28931452978
+#> EM - StMoE: Iteration: 162 | log-likelihood: -302.289661718499
+#> EM - StMoE: Iteration: 163 | log-likelihood: -302.289996284107
+#> EM - StMoE: Iteration: 164 | log-likelihood: -302.290318708259
+#> EM - StMoE: Iteration: 165 | log-likelihood: -302.290629450648
+#> EM - StMoE: Iteration: 166 | log-likelihood: -302.290928950694
 
 stmoe$summary()
 #> ------------------------------------------
@@ -1025,29 +1021,35 @@ stmoe$summary()
 #> 
 #> StMoE model with K = 2 experts:
 #> 
-#>  log-likelihood df       AIC     BIC       ICL
-#>       -234.3023 12 -246.3023 -271.59 -271.9832
+#>  log-likelihood df       AIC       BIC      ICL
+#>       -302.2909 12 -314.2909 -339.5786 -339.576
 #> 
 #> Clustering table (Number of observations in each expert):
 #> 
 #>   1   2 
-#> 252 248 
+#> 249 251 
 #> 
 #> Regression coefficients:
 #> 
-#>     Beta(k = 1)   Beta(k = 2)
-#> 1   -0.05219152  0.0006924279
-#> X^1  2.52727138 -2.6517796676
+#>     Beta(k = 1) Beta(k = 2)
+#> 1    0.06643398 -0.02736487
+#> X^1  2.57061178 -2.64710637
 #> 
 #> Variances:
 #> 
 #>  Sigma2(k = 1) Sigma2(k = 2)
-#>      0.4409196     0.4564337
+#>      0.1031365     0.6024446
 
 stmoe$plot()
 ```
 
-<img src="man/figures/README-unnamed-chunk-12-1.png" style="display: block; margin: auto;" /><img src="man/figures/README-unnamed-chunk-12-2.png" style="display: block; margin: auto;" /><img src="man/figures/README-unnamed-chunk-12-3.png" style="display: block; margin: auto;" /><img src="man/figures/README-unnamed-chunk-12-4.png" style="display: block; margin: auto;" />
+<img src="man/figures/README-unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
+
+    #> Warning in sqrt(stat$Vary): production de NaN
+    
+    #> Warning in sqrt(stat$Vary): production de NaN
+
+<img src="man/figures/README-unnamed-chunk-12-2.png" style="display: block; margin: auto;" /><img src="man/figures/README-unnamed-chunk-12-3.png" style="display: block; margin: auto;" /><img src="man/figures/README-unnamed-chunk-12-4.png" style="display: block; margin: auto;" />
 
 ``` r
 # Applicartion to a real data set
@@ -1062,56 +1064,98 @@ p <- 2 # Order of the polynomial regression (regressors/experts)
 q <- 1 # Order of the logistic regression (gating network)
 
 stmoe <- emStMoE(X = x, Y = y, K = K, p = p, q = q, verbose = TRUE)
-#> EM - StMoE: Iteration: 1 | log-likelihood: -598.378928473196
-#> EM - StMoE: Iteration: 2 | log-likelihood: -591.121360563748
-#> EM - StMoE: Iteration: 3 | log-likelihood: -585.891518162115
-#> EM - StMoE: Iteration: 4 | log-likelihood: -584.531834586751
-#> EM - StMoE: Iteration: 5 | log-likelihood: -583.688326260239
-#> EM - StMoE: Iteration: 6 | log-likelihood: -581.748691083224
-#> EM - StMoE: Iteration: 7 | log-likelihood: -575.429431222942
-#> EM - StMoE: Iteration: 8 | log-likelihood: -568.8654802038
-#> EM - StMoE: Iteration: 9 | log-likelihood: -564.310738730918
-#> EM - StMoE: Iteration: 10 | log-likelihood: -562.178660539117
-#> EM - StMoE: Iteration: 11 | log-likelihood: -561.539530806893
-#> EM - StMoE: Iteration: 12 | log-likelihood: -561.212860835964
-#> EM - StMoE: Iteration: 13 | log-likelihood: -560.898899810456
-#> EM - StMoE: Iteration: 14 | log-likelihood: -560.676612256346
-#> EM - StMoE: Iteration: 15 | log-likelihood: -560.583556270606
-#> EM - StMoE: Iteration: 16 | log-likelihood: -560.547931934327
-#> EM - StMoE: Iteration: 17 | log-likelihood: -560.525984175198
-#> EM - StMoE: Iteration: 18 | log-likelihood: -560.506244828604
-#> EM - StMoE: Iteration: 19 | log-likelihood: -560.486372766321
-#> EM - StMoE: Iteration: 20 | log-likelihood: -560.465809008515
-#> EM - StMoE: Iteration: 21 | log-likelihood: -560.444477812037
-#> EM - StMoE: Iteration: 22 | log-likelihood: -560.422220017826
-#> EM - StMoE: Iteration: 23 | log-likelihood: -560.398890330879
-#> EM - StMoE: Iteration: 24 | log-likelihood: -560.374329277717
-#> EM - StMoE: Iteration: 25 | log-likelihood: -560.348430250981
-#> EM - StMoE: Iteration: 26 | log-likelihood: -560.320992248949
-#> EM - StMoE: Iteration: 27 | log-likelihood: -560.291845862702
-#> EM - StMoE: Iteration: 28 | log-likelihood: -560.260905931982
-#> EM - StMoE: Iteration: 29 | log-likelihood: -560.227991350841
-#> EM - StMoE: Iteration: 30 | log-likelihood: -560.192908665065
-#> EM - StMoE: Iteration: 31 | log-likelihood: -560.155384905412
-#> EM - StMoE: Iteration: 32 | log-likelihood: -560.115051313509
-#> EM - StMoE: Iteration: 33 | log-likelihood: -560.071440694395
-#> EM - StMoE: Iteration: 34 | log-likelihood: -560.024270530377
-#> EM - StMoE: Iteration: 35 | log-likelihood: -559.972756622238
-#> EM - StMoE: Iteration: 36 | log-likelihood: -559.916300701573
-#> EM - StMoE: Iteration: 37 | log-likelihood: -559.85421210286
-#> EM - StMoE: Iteration: 38 | log-likelihood: -559.785766351338
-#> EM - StMoE: Iteration: 39 | log-likelihood: -559.710648005553
-#> EM - StMoE: Iteration: 40 | log-likelihood: -559.628624806734
-#> EM - StMoE: Iteration: 41 | log-likelihood: -559.539539579952
-#> EM - StMoE: Iteration: 42 | log-likelihood: -559.444398968932
-#> EM - StMoE: Iteration: 43 | log-likelihood: -559.346657172511
-#> EM - StMoE: Iteration: 44 | log-likelihood: -559.256309760937
-#> EM - StMoE: Iteration: 45 | log-likelihood: -559.190820409936
-#> EM - StMoE: Iteration: 46 | log-likelihood: -559.159108009686
-#> EM - StMoE: Iteration: 47 | log-likelihood: -559.1488030091
-#> EM - StMoE: Iteration: 48 | log-likelihood: -559.145868051976
-#> EM - StMoE: Iteration: 49 | log-likelihood: -559.144906757104
-#> EM - StMoE: Iteration: 50 | log-likelihood: -559.144513903585
+#> EM - StMoE: Iteration: 1 | log-likelihood: -599.970868260844
+#> EM - StMoE: Iteration: 2 | log-likelihood: -584.761753783483
+#> EM - StMoE: Iteration: 3 | log-likelihood: -584.739108683906
+#> EM - StMoE: Iteration: 4 | log-likelihood: -583.152667091195
+#> EM - StMoE: Iteration: 5 | log-likelihood: -577.01758775371
+#> EM - StMoE: Iteration: 6 | log-likelihood: -570.545320839571
+#> EM - StMoE: Iteration: 7 | log-likelihood: -566.102216660141
+#> EM - StMoE: Iteration: 8 | log-likelihood: -564.005208184307
+#> EM - StMoE: Iteration: 9 | log-likelihood: -563.473769874151
+#> EM - StMoE: Iteration: 10 | log-likelihood: -563.371015164243
+#> EM - StMoE: Iteration: 11 | log-likelihood: -563.325639042004
+#> EM - StMoE: Iteration: 12 | log-likelihood: -563.260956368371
+#> EM - StMoE: Iteration: 13 | log-likelihood: -563.160103139318
+#> EM - StMoE: Iteration: 14 | log-likelihood: -563.036208961213
+#> EM - StMoE: Iteration: 15 | log-likelihood: -562.929568309038
+#> EM - StMoE: Iteration: 16 | log-likelihood: -562.873926288988
+#> EM - StMoE: Iteration: 17 | log-likelihood: -562.863056340075
+#> EM - StMoE: Iteration: 18 | log-likelihood: -562.872058840866
+#> EM - StMoE: Iteration: 19 | log-likelihood: -562.884298969276
+#> EM - StMoE: Iteration: 20 | log-likelihood: -562.892257042228
+#> EM - StMoE: Iteration: 21 | log-likelihood: -562.893400819209
+#> EM - StMoE: Iteration: 22 | log-likelihood: -562.886326886739
+#> EM - StMoE: Iteration: 23 | log-likelihood: -562.869734547993
+#> EM - StMoE: Iteration: 24 | log-likelihood: -562.843373338597
+#> EM - StMoE: Iteration: 25 | log-likelihood: -562.806530223593
+#> EM - StMoE: Iteration: 26 | log-likelihood: -562.759209213378
+#> EM - StMoE: Iteration: 27 | log-likelihood: -562.701759556614
+#> EM - StMoE: Iteration: 28 | log-likelihood: -562.637851562422
+#> EM - StMoE: Iteration: 29 | log-likelihood: -562.578679951567
+#> EM - StMoE: Iteration: 30 | log-likelihood: -562.544706088763
+#> EM - StMoE: Iteration: 31 | log-likelihood: -562.547659760017
+#> EM - StMoE: Iteration: 32 | log-likelihood: -562.573594841724
+#> EM - StMoE: Iteration: 33 | log-likelihood: -562.606224655412
+#> EM - StMoE: Iteration: 34 | log-likelihood: -562.639170956927
+#> EM - StMoE: Iteration: 35 | log-likelihood: -562.670887429489
+#> EM - StMoE: Iteration: 36 | log-likelihood: -562.700977889776
+#> EM - StMoE: Iteration: 37 | log-likelihood: -562.729333904045
+#> EM - StMoE: Iteration: 38 | log-likelihood: -562.75594302018
+#> EM - StMoE: Iteration: 39 | log-likelihood: -562.780915483106
+#> EM - StMoE: Iteration: 40 | log-likelihood: -562.804273764516
+#> EM - StMoE: Iteration: 41 | log-likelihood: -562.826081748726
+#> EM - StMoE: Iteration: 42 | log-likelihood: -562.846465069854
+#> EM - StMoE: Iteration: 43 | log-likelihood: -562.865494990344
+#> EM - StMoE: Iteration: 44 | log-likelihood: -562.883363535599
+#> EM - StMoE: Iteration: 45 | log-likelihood: -562.899766649106
+#> EM - StMoE: Iteration: 46 | log-likelihood: -562.915105887419
+#> EM - StMoE: Iteration: 47 | log-likelihood: -562.929369415829
+#> EM - StMoE: Iteration: 48 | log-likelihood: -562.942618350082
+#> EM - StMoE: Iteration: 49 | log-likelihood: -562.954914681938
+#> EM - StMoE: Iteration: 50 | log-likelihood: -562.966324704433
+#> EM - StMoE: Iteration: 51 | log-likelihood: -562.976892924208
+#> EM - StMoE: Iteration: 52 | log-likelihood: -562.986679129858
+#> EM - StMoE: Iteration: 53 | log-likelihood: -562.995698141401
+#> EM - StMoE: Iteration: 54 | log-likelihood: -563.004199322622
+#> EM - StMoE: Iteration: 55 | log-likelihood: -563.011948719677
+#> EM - StMoE: Iteration: 56 | log-likelihood: -563.019092394262
+#> EM - StMoE: Iteration: 57 | log-likelihood: -563.025788220585
+#> EM - StMoE: Iteration: 58 | log-likelihood: -563.032130750582
+#> EM - StMoE: Iteration: 59 | log-likelihood: -563.038101658285
+#> EM - StMoE: Iteration: 60 | log-likelihood: -563.043686700587
+#> EM - StMoE: Iteration: 61 | log-likelihood: -563.048913316641
+#> EM - StMoE: Iteration: 62 | log-likelihood: -563.053800034428
+#> EM - StMoE: Iteration: 63 | log-likelihood: -563.058367081312
+#> EM - StMoE: Iteration: 64 | log-likelihood: -563.062634411041
+#> EM - StMoE: Iteration: 65 | log-likelihood: -563.066621029848
+#> EM - StMoE: Iteration: 66 | log-likelihood: -563.070344865861
+#> EM - StMoE: Iteration: 67 | log-likelihood: -563.073822774497
+#> EM - StMoE: Iteration: 68 | log-likelihood: -563.077068884576
+#> EM - StMoE: Iteration: 69 | log-likelihood: -563.080101318079
+#> EM - StMoE: Iteration: 70 | log-likelihood: -563.082932976016
+#> EM - StMoE: Iteration: 71 | log-likelihood: -563.085576456654
+#> EM - StMoE: Iteration: 72 | log-likelihood: -563.088043769262
+#> EM - StMoE: Iteration: 73 | log-likelihood: -563.090354748117
+#> EM - StMoE: Iteration: 74 | log-likelihood: -563.092543476789
+#> EM - StMoE: Iteration: 75 | log-likelihood: -563.094432674549
+#> EM - StMoE: Iteration: 76 | log-likelihood: -563.09630477819
+#> EM - StMoE: Iteration: 77 | log-likelihood: -563.098074257544
+#> EM - StMoE: Iteration: 78 | log-likelihood: -563.099724441976
+#> EM - StMoE: Iteration: 79 | log-likelihood: -563.101258071476
+#> EM - StMoE: Iteration: 80 | log-likelihood: -563.102682505525
+#> EM - StMoE: Iteration: 81 | log-likelihood: -563.104005588245
+#> EM - StMoE: Iteration: 82 | log-likelihood: -563.105234621045
+#> EM - StMoE: Iteration: 83 | log-likelihood: -563.106376189189
+#> EM - StMoE: Iteration: 84 | log-likelihood: -563.107436197855
+#> EM - StMoE: Iteration: 85 | log-likelihood: -563.108419942485
+#> EM - StMoE: Iteration: 86 | log-likelihood: -563.109332171131
+#> EM - StMoE: Iteration: 87 | log-likelihood: -563.110177132063
+#> EM - StMoE: Iteration: 88 | log-likelihood: -563.11095860863
+#> EM - StMoE: Iteration: 89 | log-likelihood: -563.11167994535
+#> EM - StMoE: Iteration: 90 | log-likelihood: -563.112344067246
+#> EM - StMoE: Iteration: 91 | log-likelihood: -563.112953493273
+#> EM - StMoE: Iteration: 92 | log-likelihood: -563.113510345457
 
 stmoe$summary()
 #> ------------------------------------------
@@ -1121,7 +1165,7 @@ stmoe$summary()
 #> StMoE model with K = 4 experts:
 #> 
 #>  log-likelihood df       AIC       BIC       ICL
-#>       -559.1445 30 -589.1445 -632.4998 -632.4958
+#>       -563.1135 30 -593.1135 -636.4687 -636.4969
 #> 
 #> Clustering table (Number of observations in each expert):
 #> 
@@ -1130,15 +1174,15 @@ stmoe$summary()
 #> 
 #> Regression coefficients:
 #> 
-#>     Beta(k = 1) Beta(k = 2) Beta(k = 3) Beta(k = 4)
-#> 1   -3.60914013 1003.925420 -1838.77561 297.6900938
-#> X^1  0.91042683 -105.302431   113.59769 -12.3701681
-#> X^2 -0.08390607    2.470887    -1.70843   0.1269379
+#>     Beta(k = 1) Beta(k = 2)  Beta(k = 3)  Beta(k = 4)
+#> 1   -3.52358475  996.077085 -1616.483001 134.35786999
+#> X^1  0.88184631 -104.419255    95.549943  -6.74970173
+#> X^2 -0.08184845    2.446371    -1.386852   0.07092188
 #> 
 #> Variances:
 #> 
 #>  Sigma2(k = 1) Sigma2(k = 2) Sigma2(k = 3) Sigma2(k = 4)
-#>       14.56733      447.4481      538.7592      545.5042
+#>       14.09186      448.3051      1404.488      1385.116
 
 stmoe$plot()
 ```

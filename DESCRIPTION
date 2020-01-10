@@ -1,7 +1,7 @@
 Type: Package
 Package: meteorits
 Title: Mixture-of-Experts Modeling for Complex Non-Normal Distributions
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Faicel", "Chamroukhi", role = c("aut"),
     comment = c(ORCID = "0000-0002-5894-3103"),
     email = "faicel.chamroukhi@unicaen.fr"),
@@ -43,10 +43,10 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 NeedsCompilation: yes
-Packaged: 2019-10-04 11:57:08 UTC; florianlecocq
+Packaged: 2020-01-10 13:06:19 UTC; lecocq191
 Author: Faicel Chamroukhi [aut] (<https://orcid.org/0000-0002-5894-3103>),
   Florian Lecocq [aut, trl, cre] (R port),
   Marius Bartcus [aut, trl] (R port)
 Maintainer: Florian Lecocq <florian.lecocq@outlook.com>
 Repository: CRAN
-Date/Publication: 2019-10-07 14:40:08 UTC
+Date/Publication: 2020-01-10 16:00:02 UTC
